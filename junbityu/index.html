@@ -1,0 +1,163 @@
+<?php
+	$SOUPASS="../";
+	$senditem['page_h1']="準備中のページになります。随時更新して参りますのお待ち頂きますようお願いいたします。";
+?>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Dog,Cat,CLEAR,clear,犬,猫,ドッグ,キャット,フード,お手入れ,ケア,方法,トレーニング,しつけ,安心,安全,厳選,信頼">
+	<meta name="description" content="Dog&Cat CLEARでは愛犬、愛猫の健康面、安全面を考慮した商品のみを厳選しております★愛犬、愛猫の健康は飼い主が守るがテーマに記事掲載もしております★">
+    <title>『Cat&amp;Cat CLEAR』では愛犬、愛猫の健康面＆安全面に考慮した商品のみ厳選してお取り扱いしております☆</title>
+	<meta name="copyright" content="『Dog&Cat CLEAR』愛犬、愛猫の健康面、安心、安全面に考慮した厳選フード、ケア・お手入れ用品のみを扱いしているペットショップ">
+	<link rel="start" href="https://www.dogcat-clear.com/" title="Home">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link media="screen and (min-width: 768px)" href="../css/layout.css" rel="stylesheet">
+    <link media="screen and (max-width: 767px)" href="../css/sp/s_layout_header.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico"> 
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.min.js"></script>
+	<script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173353867-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173353867-1');
+</script>
+</head>
+
+<body>
+<!--▼ここからヘッダー-->
+<?php
+
+	include('../tpl/include/header.php');
+
+?>
+
+	<div id="top_main">
+	<img src="../image/top/clear.png" alt="Dog&Cat CLEAR・安心安全のケア用品" class="visible_l">
+	<img src="../image/top/clear.png" alt="Dog&Cat CLEAR・安心安全のケア用品" class="visible_s">
+</div>
+
+<div id="top">
+    
+    <section class="a-center">
+    <h2 class="f18">準備中のページになります。</h2>
+    <p><strong>申し訳ありません。<br>
+        準備中のページになります(；ω；)<br>
+        随時フードや新商品を取り扱い次第更新してまいります！</strong></p>
+    </section>
+    <br>
+    <br>
+    
+   
+    
+      <section class="a-center">
+        <h2 class="f18">CLEAR POWDER 販売開始致しました！</h2>
+        <p><strong>初の自社商品となります『CLEAR POWDER』ですが、<br>
+            販売を開始致しました٩( 'ω' )و</strong></p>
+        <p><strong>送料無料で承らせて頂きます！<br>
+            愛犬・愛猫のトイレ関係でお悩みの飼い主さま！<br>
+            是非CLEAR POWDERをお試しください☆<br>
+            今後ともよろしくお願い致します( ・∇・)</strong></p>
+            <a href="https://forms.gle/WLEYMYcS3hE92dGW8" target="_blank"><img src="../image/base/form.png" alt="Dog&Cat CLEARのご注文フォーム" class="kaimonoform"></a>
+          <br><br>
+          <iframe src="https://www.youtube.com/embed/VtwQc2xbQhM?start=16" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <br>
+</div>
+
+
+  
+	<!--▼ここからフッター-->  
+<?php
+	include('../tpl/include/footer.php');
+
+?>		
+
+<script src="../js/Untitled-4.js"></script>
+
+    
+<script src="js/jquery.min.js"></script>
+	
+<script src="js/sp/slick.min.js"></script>
+
+	
+<script>
+jQuery(document).ready(function($) {
+    //PC環境の場合
+    if (window.matchMedia( '(min-width: 768px)' ).matches) {　//切り替える画面サイズ
+        $.ajax({
+            url: 'js/common.js',
+            dataType: 'script',
+            cache: false
+      });
+    //モバイル環境の場合
+    } else {
+		$.ajax({
+            url: 'js/sp/jquery.sidr.min.js',
+            dataType: 'script',
+            cache: false
+        });
+		$.ajax({
+            url: 'js/sp/common.js',
+            dataType: 'script',
+            cache: false
+        });
+		$.ajax({
+            url: 'js/sp/drawer.js',
+            dataType: 'script',
+            cache: false
+        });
+		$.ajax({
+            url: 'js/sp/drawer_left.js',
+            dataType: 'script',
+            cache: false
+        });
+
+    };
+});
+</script>
+<script>
+$(document).ready(function(){
+$('.slider').slick({
+	  infinite: true,
+	  dots:true,
+	  slidesToShow: 3,
+	  slidesToScroll: 3,
+	  responsive: [{
+		   breakpoint: 768,
+				settings: {
+					 slidesToShow: 2,
+					 slidesToScroll: 2,
+		   }
+	  },{
+		   breakpoint: 480,
+				settings: {
+					 slidesToShow: 1,
+					 slidesToScroll: 1,
+				}
+		   }
+	  ]
+ });
+});
+</script>	
+<script type="text/javascript" src="js/tagmanager.js"></script>
+<noscript type="text/javascript" src="js/tagmanager2.js"></noscript>
+</body>
+</html>
+<link media="screen and (min-width: 768px)" href="../css/common.css" rel="stylesheet">
+<link media="screen and (min-width: 768px)" href="../css/top.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/s_layout.css?v2" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/common.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/top.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/modal.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/modaal.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/slick-theme.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/slick.css" rel="stylesheet">

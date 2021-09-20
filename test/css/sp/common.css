@@ -1,0 +1,475 @@
+﻿@charset "UTF-8";
+/* PCだけ表示 */
+.visible_l,img.visible_l,span.visible_l,br.visible_l,td.visible_l,th.visible_l,tr.visible_l,table.visible_l {
+	display: none !important;
+}
+
+/* SPだけ表示 */
+.visible_s {
+	display: block !important;
+}
+span.visible_s,img.visible_s,br.visible_s {
+	display: inline !important;
+}
+table.visible_s {
+	display: table !important;
+}
+hr {
+    clear: both;
+    border: 0;
+    border-top: #CCC dashed 1px;
+    margin: 25px 0;
+}
+ul {
+	list-style: none;
+}
+a{text-decoration:none;}
+
+img{
+	width:auto;
+	max-width:100%;
+	height:auto;
+	margin:0 auto;
+}
+
+img.center,
+img.center2,
+img.block,img.b_center{
+	display:block;
+	margin:0 auto;
+}
+
+img.sp{
+	width:auto;
+	height:auto;
+	margin:0 auto !important;
+}
+
+img.sp2{
+	width:30% !important;
+	height:auto;
+}
+img.sp_auto,
+img.l_l{
+		width:auto;
+		float:none;
+		display:block !important;
+		margin:0 auto !important;
+	}
+img.kochira{
+	width:70%;
+	margin:5px auto;
+}
+img.ss{
+	width:50px;
+	margin:5px auto;
+}
+
+section:after{
+	content: "";
+	display: block;
+	clear: both;	
+}
+
+#pagetop{
+	display: none;
+}
+
+p.ptop{
+	display:none;
+}
+
+p{
+	margin: 5px 20px 15px 20px;
+    text-align: left;
+}
+
+.w96{
+	width:96%;
+	margin:0 auto;
+}
+.mt0{
+	margin-top:0px !important;
+}
+
+.mt10{
+	margin-top:10px;
+}
+
+.mt20{
+	margin-top:20px;
+}
+
+.mt30{
+	margin-top:30px;
+}
+.mt40{
+	margin-top:40px;
+}
+
+.mt50{
+	margin-top:50px;
+}
+
+.mb10{
+	margin-bottom:10px !important;
+}
+.mb25{
+	margin-bottom:25px !important;
+}
+.mb20{
+	margin-bottom:20px !important;
+}
+.mb30{
+	margin-bottom:30px !important;
+}
+.mb50{
+	margin-bottom:50px !important;
+}
+
+.mr10{
+	margin-right:10px;
+}
+
+.ml30{
+	margin-left:30px;
+}
+
+.ml50{
+	margin-left:50px;
+}
+
+.mtb20{
+	margin:20px 0 40px 0;
+}
+
+.clr,.bclr{
+	clear:both !important;
+}
+.clearfix:after,
+.s_clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.txt_idt {
+   padding-left: 1em;
+   text-indent: -1em;	
+}
+.txt_idt2{
+   padding-left: 2.6em;
+   text-indent: -2.6em;	
+}
+
+.r{
+	float:right;
+	margin:5px 0 0 5px;
+}
+
+.f-left,.f-left_s{
+	float:left;
+}
+
+.f-right{
+	float:right;
+}
+
+.a-left{
+	text-align:left;
+}
+
+.a-right{
+	text-align:right;
+}
+
+.a-center,
+.s_a-center{
+	text-align:center !important;
+}
+
+.va-middle{
+	vertical-align:middle;
+}
+
+/*----------------------------- 
+幅  
+----------------------------- */
+.p20{
+	width:20% !important;
+}
+
+.p34{
+	width:34% !important;
+}
+.p50{
+	width:50%;
+}
+.p80{
+	width:80% !important;
+}
+
+/*----------------------------- 
+フォント  
+----------------------------- */
+.red{
+	color:#cc0000;
+}
+
+.blue{
+	color:#0076bc;
+}
+.blue2{
+	color:#3333cc;
+}
+.blue3{
+	color:#008CD6;
+}
+.blue4{
+    color: aqua;
+}
+.blue5{
+    color: #82BEB3;
+}
+.green{
+	color:#129330;
+}
+.ygreen{
+	color:#9adb77;
+}
+.pink{
+	color:#e4238e;
+}
+.og{
+	color:#CC6600;
+}
+.brown{
+	color:#663333;
+}
+.gray{
+    color: #AEAEAE;
+}
+
+
+
+
+
+
+
+.fbg2{
+	font-size:110%;
+}
+
+.bg{
+	font-size:16px;
+	}
+.bo{
+	font-weight:bold;
+}
+.f12{
+	font-size:12px;
+}
+.f14{
+	font-size:14px;
+}
+.f15{
+	font-size:15px;
+}
+.f18{
+	font-size:18px;
+}
+/*----------------------------- 
+リンク 
+----------------------------- */
+a.kochira{
+	display: block;
+	margin:15px auto;
+	text-align: center;
+}
+a.kochira img{
+	width:70%;
+	max-width:220px;
+}
+div.to_link a {
+    width: 80%;
+	margin: 15px auto;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #42A6E3;
+    padding: 12px 15px;
+    border: 1px solid #42A6E3;
+    border-radius: 30px !important;
+    background: url(../../images/common/ico_arrow_lg.png) right 10px top 50% no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+}
+div.to_link a:hover{
+	filter:alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+/*リンク
+----------------------------------------*/
+a.to_link2{
+	width:75%;
+	margin:15px auto;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color:#42A6E3;
+	padding:17px 30px;
+	border:1px solid #42A6E3;
+	font-weight:bold;
+	border-radius: 30px !important;
+	background: #fff url(../../images/common/ico_arrow_lg.png) right 10px top 50% no-repeat;
+}
+
+a.to_link2:hover{
+	filter:alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;	
+}
+
+.c-marker {
+    display: inline;
+    background: -webkit-linear-gradient(transparent 67%,#fced40 67%,#fced40);
+    background: linear-gradient(transparent 67%,#fced40 67%,#fced40);
+}
+/*iframe動画 うめこみ*/
+.movie {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 75%;
+    margin-bottom: 30px;
+}
+.movie iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a.btn_link2 {
+	width:80%;
+	display: block;
+	margin:5px auto 70px auto !important;
+	padding:10px;
+	font-size:15px;
+	color:#fff;
+	border:1px solid #000066;
+	border-radius:10px ;
+	background:#004098;
+	text-align: center;
+	text-decoration: none;
+}
+
+/*動画*/
+.movie {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 75%;
+    margin-bottom: 30px;
+}
+.movie iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    color: #454545;
+    background: #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #454545;
+    position: relative;
+    margin: 10px 5px;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    font-family: comfortaa;
+    font-weight: bold;
+}
+button:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+button:before {
+    top: -6px;
+    left: -6px;
+    border-width: 2px 0 0 2px;
+    z-index: 5;
+}
+
+button:before, button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-color: #454545;
+    box-sizing: border-box;
+    border-style: solid;
+    width: 1em;
+    height: 1em;
+    transition: all 0.3s ease-in-out;
+}
+button:after {
+    bottom: -6px;
+    right: -6px;
+    border-width: 0 2px 2px 0;
+}
+
+button:before, button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-color: #454545;
+    box-sizing: border-box;
+    border-style: solid;
+    width: 1em;
+    height: 1em;
+    transition: all 0.3s ease-in-out;
+}
+button:hover:before,
+button:hover:after {
+    width: calc(100% + 12px);
+    height: calc(100% + 12px);
+    border-color: #000000;
+    transform: rotateY(
+180deg
+);
+}
+
+    h2 {
+    font-size: 19px;
+    position: relative;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    font-family: 'YuMincho', 'Yu Mincho', 'Hiragino Mincho ProN', 'serif';
+}
+
+
+.fadein {
+	opacity : 0.1;
+	transform : translate(0, 50px);
+	transition : all 1400ms;
+	}
+.fadein.scrollin {
+    opacity: 1;
+    transform: translate(0, 0);
+	padding: 5px 0;
+	background: #FFFFFF;
+}
+
+.store{
+	margin-bottom: 30px;
+}

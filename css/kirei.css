@@ -1,0 +1,445 @@
+@charset "UTF-8";
+/*----------------------------- 
+きれいッ粉5つのちから		
+----------------------------- */
+
+.marugo{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+.va-middle{
+	vertical-align:middle;
+}
+
+.bor10{
+	border:2px solid #008CD6;
+	padding:5px 10px;
+	border-radius: 15px;        /* CSS3草案 */  
+    -webkit-border-radius: 15px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 15px;   /* Firefox用 */ 
+}
+
+.kireikko_arrow_box{
+    width:100%;
+    height:50px;
+	position: relative;
+    background: #008bd6;
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:5px;
+    text-align:center;
+    line-height:50px;
+    margin-bottom:20px;
+}
+
+.kireikko_arrow_box:after{
+	top: 100%;
+	left:50%;
+	border:solid transparent;
+	content:" ";
+	height:0;
+	width:0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 139, 214, 0);
+	border-top-color: #008bd6;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.tokutyou{
+	width:100%;
+	background:#e0f6fa;
+	padding:20px 1%;
+	margin:10px 0 20px 0;
+}
+.tokutyou .clbox{
+	width:49%;
+	float:left !important;
+	margin:0 0.5% 20px;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+.tokutyou .clbox .tokutyou_mds{
+	width:90%;
+	border-top-right-radius:6px;
+	border-top-left-radius:6px;
+	background:#008CD6;
+	padding:3% 5%;
+	margin:0 auto;
+	text-align:center;
+	border:1px solid #ccc;
+}
+
+.clbox .tokutyou_con{
+	background:#ffffff;
+	width:90%;
+	border-bottom-right-radius:6px;
+	border-bottom-left-radius:6px;
+	padding:5%;
+	margin:0 auto;
+	font-size:14px;
+}
+.clbox .tokutyou_con strong{
+	font-size:16px;
+}
+.clbox .tokutyou_con ul,
+.clbox .tokutyou_con ol{
+	padding:10px 0;
+	font-size:15px;
+	width:100%;
+	list-style-type: none;
+}
+
+.clbox .tokutyou_con ul li,
+.clbox .tokutyou_con ol li
+{
+	background:url(../images/kirei/ten_maru.png) no-repeat 0 0;
+	padding-left:15px;
+}
+
+.clbox .tokutyou_con ol li.nostyle
+{
+	background:none;
+	padding-left:15px;
+}
+
+.clbox h3.power_midashi{
+	font-size:22px;
+	color:#ffffff;
+	font-weight:bold;
+	background:none !important;
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.tokutyou .blue_midashi{
+	width:100%;
+	font-size:26px;
+	color:#008CD6;
+	font-weight:900 !important;
+	margin:10px auto 15px auto;
+	line-height:160%;
+	text-align:center;
+	float:left;
+	box-sizing:  border-box;
+}
+
+.waku_og,
+.waku_og_list{
+	width:95%;
+	border-radius: 15px;        /* CSS3草案 */  
+    -webkit-border-radius: 15px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 15px;   /* Firefox用 */ 
+	border:2px solid #F60;
+	margin:20px auto 50px auto;
+	font-size:95%;
+}
+.waku_og a,
+.waku_og_list a{
+	display: block;
+	padding:15px 2%;
+	text-decoration:none;
+	color:#333333;
+	line-height:200%;
+	border-bottom:2px dotted #ccc;
+
+}
+.waku_og_list a{
+	padding:15px 25px;
+}
+.waku_og a:last-of-type,
+.waku_og_list a:last-of-type{
+	border-bottom:none;
+}
+
+.waku_og a:visited,
+.waku_og_list a:visited{
+	color:#551A8B !important;
+	bacgkround:url(../images/common/l_check.png) no-repeat left #ccc !important;
+text-decoration: line-through;
+opacity: .25;
+filter: alpha(opacity=25);
+}
+
+.waku_og a:visited span,
+.waku_og_list a:visited span,
+.waku_og a:visited strong,
+.waku_og_list a:visited strong{
+	color:#551A8B !important;
+}
+
+
+.waku_og a:visited::before{
+}
+
+.waku_og a:hover,
+.waku_og_list a:hover{
+	background:#FFEFDF;
+}
+
+.waku_og a strong,
+.waku_og_list a strong{
+	padding:0 !important;
+}
+/*-----------------------------
+	kirei　きれいッ粉の秘密
+----------------------------- */
+.kirei_base{
+	line-height: 1.7 !important;
+	font-size: 15px;
+}
+
+.more1{
+	width:70%;
+	float:right;
+	text-align:left;
+	margin:10px 20px 10px 0;
+	}
+
+
+.kiji_line{
+	width:450px;
+	height:auto;
+	border-left:solid 5px #339900;
+	margin:5px 0 5px 30px;
+	line-height:200%;
+	}
+	.kiji_line p{
+		padding:10px;
+		}
+.description{
+	width:650px;
+	padding:5px 0 0 10px;
+	background:#e5f6fe url(../images/common/a2_p16.gif) repeat-x;
+	border: 1px #AAFFFF solid;
+}
+
+.big{
+	font-size:16px;
+	background:#FFD9EC url(../images/common/a24_p4.gif);
+	border: 1px #FF51A8 solid;
+	padding:10px 10px 3px 20px;
+	width:480px;
+	color:#E10071;
+	margin-bottom:20px;
+	margin-top:20px;
+	text-align:center;
+}
+table{
+	width:calc(100% - 40px);
+	margin:0 auto;
+}
+table td{
+	width:50%;
+	background-color:#DCF1FB;
+	font-size:80%;
+	padding:8px 10px;
+	box-sizing: border-box;
+}
+table th{
+	background-color:#ccc;
+}
+
+
+/*----------------------------- 
+過炭酸ソーダ試験		
+----------------------------- */
+
+h2.line01{
+	font-size:23px!important;
+}
+
+strong.og_big{
+	color:#ea5432;
+	font-size:22px;
+	margin-bottom:10px;
+}
+
+h3.ex{
+	font-size:30px !important;
+	color:#00a0ea !important;
+	margin:30px 0 15px 0 !important;
+	background:none !important;
+	text-shadow: none !important;
+	text-align: left !important;
+	padding: 0 !important;
+}
+
+h3.ex img{
+	margin:0 5px 0 0;
+	vertical-align:middle;
+}
+
+div.waku_jouken{
+	font-size:15px;
+	border:2px solid #031C6C;
+	padding:10px;
+	line-height:140%;
+	margin:10px 20px 40px ;
+	box-sizing: border-box;
+}
+
+
+/*----------------------------- 
+活用事例集	
+----------------------------- */
+div.tabbox p{
+	margin:0;
+	padding:0;
+}
+
+div.tabbox p img{
+	display:block;
+	float:left;
+	margin:0;
+}
+
+
+div#tab1,div#tab2,div#tab3,div#tab4{
+	margin:50px 0 0 0;
+	
+}
+
+
+div#tab1 h3{
+	border-radius: 30px;        /* CSS3草案 */  
+    -webkit-border-radius: 30px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 30px;   /* Firefox用 */  
+	background:#d6fcf9;
+	padding:5px 0;
+	text-align:center;
+	color:#027acc;
+	width:230px;
+	position:absolute;
+	z-index:99;
+	
+}
+
+div#tab2 h3{
+	border-radius: 30px;        /* CSS3草案 */  
+    -webkit-border-radius: 30px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 30px;   /* Firefox用 */  
+	background:#ffefda;
+	padding:5px 0;
+	text-align:center;
+	color:#f77500;
+	width:260px;
+	position:absolute;
+	z-index:99;
+	
+}
+
+div#tab3 h3{
+	border-radius: 30px;        /* CSS3草案 */  
+    -webkit-border-radius: 30px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 30px;   /* Firefox用 */  
+	background:#e9a902;
+	padding:5px 0;
+	text-align:center;
+	color:#ffffff;
+	width:260px;
+	position:absolute;
+	z-index:99;
+	
+}
+
+div#tab4 h3{
+	border-radius: 30px;        /* CSS3草案 */  
+    -webkit-border-radius: 30px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 30px;   /* Firefox用 */  
+	background:#e8fcfb;
+	padding:5px 0;
+	text-align:center;
+	color:#3bd5d0;
+	width:260px;
+	position:absolute;
+	z-index:99;
+	
+}
+
+div.jirei_box{
+	border-radius: 20px;        /* CSS3草案 */  
+    -webkit-border-radius: 20px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 20px;  
+	border:1px solid #CCC;
+	position:relative;
+	top:15px;
+	margin:0 0 50px 0;
+	padding:40px 0 0 0;
+	left:5px;
+	box-sizing:border-box;
+	width:670px;
+}
+
+div.jirei_box div{
+	width:220px;
+	margin:0;
+	float:left;
+}
+
+
+div.jirei_box ul{
+	font-size:14px;
+	margin:10px 0 0 5px;
+	line-height:160%;
+}
+
+div.jirei_box ul li{
+	padding:0 0 0 11px;
+	margin:0 0 20px 0;
+}
+
+div.jirei_box ul li span{
+	color:#f872ea;
+}
+
+div.jirei_box ul li a{
+	color:#333;
+	text-decoration:none;
+}
+
+div.jirei_box ul li a:hover{
+	text-decoration:underline;
+}
+
+div#tab1 div.jirei_box ul li{
+	background:url(../images/common/li_mark_blue.png) no-repeat 0 0.4em;
+	
+}
+
+div#tab2 div.jirei_box ul li{
+	background:url(../images/common/li_mark_org.png) no-repeat 0 0.4em;
+	
+	
+}
+div#tab3 div.jirei_box ul li{
+	background:url(../images/common/li_mark_yellow.png) no-repeat 0 0.4em;
+	
+}
+
+div#tab4 div.jirei_box ul li{
+	background:url(../images/common/li_mark_green.png) no-repeat 0 0.4em;
+	
+}
+
+/*使い方*/
+.F-center{
+	margin:0 20px;
+	box-sizing: border-box;
+}
+
+.box-kadomaru-text h3.sub-title01{
+	padding:0 20px !important;
+}
+
+.kirei_topimg{
+	float: right;
+	width:200px!important;
+}

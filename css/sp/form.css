@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+p.err{
+	color:red;
+	margin:15px 0;
+	font-size:96%;
+}
+
+table.formtable2{
+	text-align: left;
+}
+
+table.formtable2 tr{
+	
+}
+
+table.formtable2 th{
+	font-weight: normal;
+	width:100%;
+	padding:20px 0 0 0;
+	display: block;
+	font-weight: bold;
+	position: relative;
+	border:none;
+}
+
+table.formtable2 td{
+	font-size:13px;
+	padding:10px 0 40px 0;
+	border-bottom:1px dashed #CCC;
+	display: block;
+	width:100%;
+}
+
+table.formtable2 td.col3{
+	text-align: center;
+	border:0;
+}
+
+table.formtable2 td.hisu{
+	float:right;
+	display: block;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;  
+	background:#fd0901;
+	color:#fff;
+	width:35px;
+	text-align: center;
+	vertical-align:middle;
+	height:22px;
+	font-size:14px;
+	margin-right:40px;
+}
+
+
+p.mess{
+	margin:30px auto 0 auto;
+	width:600px;
+	font-size:14px;
+}
+
+
+.btn_box_left{
+	width:48%;
+	float:left;
+}
+
+.btn_box_right{
+	width:48%;
+	float:right;
+}
+
+/*----------------------------- 
+フォーム部品
+----------------------------- */
+
+p.red{
+	font-size:14px;
+	padding:10px 20px 10px 0;
+	margin:30px 0 30px 0;
+}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+label.ra{
+	display: block;
+	font-size:14px;
+	margin:5px 0;
+}
+
+label.ra input[type="checkbox"] + span,
+label.ra input[type="radio"] + span {
+  position: relative;
+  padding: 0 30px 0 27px;
+}
+
+
+label.ra span {
+  display: inline-block;
+}
+label.ra input[type="radio"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+label.ra input[type="radio"] + span::before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+label.ra input[type="radio"] + span::before {
+  z-index: 0;
+  top: 2px;
+  left: 0;
+  background-color: transparent;
+  width: 18px;
+  height: 18px;
+  border: 1px #78909c solid;
+}
+label.ra input[type="radio"]:checked + span::before {
+  border-width: 5px;
+	border-color :#8ad0c5;
+}
+
+select,
+input[type="text"],
+textarea {
+    padding: 0.8em;
+    outline: none;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+	width: 100%;
+}
+
+select.err,
+input[type="text"].err,
+textarea.err {
+    padding: 0.8em;
+    outline: none;
+    border: 1px solid #e34264;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+	width: 100%;
+	background:#fcecef;
+}
+
+
+select:focus,
+input[type="text"]:focus,
+textarea:focus {
+    background:#effcfe;
+    border: 2px solid #8ad0c5;
+}
+
+input[type="radio"]:focus{
+	background:#effcfe;
+}
+
+input.s_btn02 {
+	margin:15px 0 0 0;
+    border-radius: 0;   
+   	background:#fff;
+    border: 2px solid #34aa9a;
+    color: #34aa9a;
+    padding: 10px 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size:14px;
+	width:100%;
+}
+input.s_btn02:hover {
+   background:#34aa9a;
+	color:#fff;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+input.s_btn01 {
+	width:100%;
+	margin:15px 0 0 0;
+    border-radius: 0;   
+    background: -moz-linear-gradient(top, #FFF 0%, #EEE);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#EEE));
+    border: 2px solid #ccc;
+    color: #999;
+    padding: 10px 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size:14px;
+}
+input.s_btn01:hover {
+	
+    background: -moz-linear-gradient(top, #EFEFEF 0%, #EEE);
+    background: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#EEE));
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+

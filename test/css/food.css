@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#food{
+	width: 1450px;
+	margin: 0 auto;
+}
+
+#top_main img {
+    margin: 0 auto 200px;
+    width: 1790px;
+}

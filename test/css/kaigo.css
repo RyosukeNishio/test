@@ -1,0 +1,141 @@
+#lp{
+	width:100%;
+	margin:0 auto;
+	background: url(../images/common/bg_grid.gif) repeat center top;
+}
+#lp img{
+	margin:0 auto;
+	display: block;
+}
+.w1070{
+	width:1070px;
+	margin:0 auto;
+}
+.blue{
+	position: relative;
+	background: #e8f9fd;
+	text-align: center;
+}
+.blue2{
+	position: relative;
+	background: #f6fbff;
+	text-align: center;
+}
+.blue a.link{
+	position: absolute;
+	bottom:40px;
+	left:0;
+	right:0;
+}
+.blue2 a.link{
+	position: absolute;
+	bottom:40px;
+	left:0;
+	right:0;
+	font-size:16px!important;
+}
+.beige{
+	background: #fef6e6;
+	text-align: center;
+}
+
+/* ‘I‚Î‚ê‚é——R */
+
+h2.rounded{
+	font-size:36px;
+	line-height: 200%;
+}
+.reason{
+	width:100%;
+	margin:0 auto;
+	padding:45px 0;
+	text-align: center;
+	background: url(../images/common/bg_grid.gif) repeat center top;
+}
+.reason hr{
+	border:0;
+	margin:0;
+}
+.reason h2{
+	margin-bottom:40px!important;
+	
+}
+.reason h3{
+	/*font-family:"ƒqƒ‰ƒMƒmŠÛƒS Pro W4","ƒqƒ‰ƒMƒmŠÛƒS Pro","Hiragino Maru Gothic Pro","ƒqƒ‰ƒMƒmŠpƒS Pro W3","Hiragino Kaku Gothic Pro","HGŠÛºŞ¼¯¸M-PRO","HGMaruGothicMPRO";*/
+	font-size:26px;
+	color:#008dd6;
+	text-align: center;
+	border-bottom:1px solid #ccc;
+	padding:5px 20px 10px 20px;
+	display: inline-block;
+	margin:0!important;
+	white-space:pre-line;
+}
+
+.reason h3 span{
+	font-family: Meiryo, "ƒƒCƒŠƒI", "Hiragino Kaku Gothic Pro", "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "MS PGothic", "‚l‚r ‚oƒSƒVƒbƒN", sans-serif;
+	background:#f9f135;
+	font-size:20px;
+	border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px; 
+	color:#000;
+	padding:1px 20px;
+	margin-right:10px;
+	display: block;
+	float:left;
+	font-weight: normal;
+}
+.reason h3 br{
+	display: none;
+}
+.reason h4{
+	font-size: 24px;
+	color:#e62112;
+	font-family:"Yu Gothic", "ŸàƒSƒVƒbƒN", YuGothic, "ŸàƒSƒVƒbƒN‘Ì", "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "ƒƒCƒŠƒI", sans-serif;
+	line-height: 0%;
+	margin:40px 0;
+}
+
+.reason h4 input{
+	display: none;
+}
+.box1,.box2{
+	width:530px;
+	text-align: left;
+	font-size:16px!important;
+}
+.box2{
+	width:740px;
+	margin:20px auto 80px auto;
+}
+.reason a{
+	color:#008dd6;
+	font-weight: bold;
+	font-family:"Yu Gothic", "ŸàƒSƒVƒbƒN", YuGothic, "ŸàƒSƒVƒbƒN‘Ì", "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "ƒƒCƒŠƒI", sans-serif;
+	width:415px;
+	display: block;
+	background: #e7f6fd;
+	border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px; 
+	text-align: center;
+	padding:8px 0;
+	font-size:18px;
+	margin:10px 0 0 0;
+}
+.reason a:hover{
+	text-decoration: underline!important;
+}
+.box2 a{
+	margin:30px auto 0 auto;
+}
+.reason a br{
+	display: none;
+}
+
+/*  ‰¡‚¢‚Á‚Ï‚¢‚Ì’†ƒRƒ“ƒeƒ“ƒc  */
+.wcon_box{
+	width:1060px;
+	margin:0 auto;
+}

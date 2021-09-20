@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+/*-----------------------------
+	レビューフォルダ
+----------------------------- */
+#contents #kijibasic p,#contents #kijibasic strong,#contents #kijibasic img,#contents #kijibasic ul{
+	
+}
+
+ul.yogore_list{
+	padding:0 0 0 20px!important;
+	margin-bottom:150px;
+}
+ul.yogore_list li{
+	width:70px;
+	font-size:12px;
+	text-align: center;
+	float:left;
+	margin:0 3.5px;
+	line-height: 140%;
+	letter-spacing: -1px;
+	padding:0;
+	box-sizing: border-box;
+}
+ul.yogore_list li span{
+	display: block;
+	padding:3px 10px 3px 10px;
+	border:2px solid #E88989;
+	border-radius: 10px;
+}
+ul.yogore_list li a{
+	display: block;
+	padding:3px 10px 3px 10px;
+	width:68px;
+	box-sizing: border-box;
+	border:1px solid #ccc;
+	border-radius: 10px;
+}
+ul.yogore_list li a:hover{
+	text-decoration: none;
+	color:#389adc;
+}
+ul.yogore_list li a:hover{
+	border:2px solid #389adc;
+}
+
+ul.yogore_list li:first-child{
+	margin:0 3.5px 0 0;
+}
+ul.yogore_list li:last-child{
+	margin:0 0 0 3.5px;
+}
+ul.yogore_list li img{
+	width:40px;
+	padding:0!important;
+}
+
+div.review {
+   border-top:1px solid #ccc;
+   margin:20px 0;
+   padding:20px;
+   font-size:90%;
+   line-height:200%;
+}
+
+div.review h3{
+   color:#fff;
+   font-size:18px;
+   margin-bottom:20px;
+}
+
+div.review div.gazou{
+	position:relative;
+   float:left;
+   width:175px;
+   margin:0 20px 0 0;
+	padding-left:0!important;
+}
+
+div.review div.gazou img{
+	padding:0!important;
+}
+
+img.kakudai{
+	position:absolute;
+	bottom:5px;
+	right:0;
+}
+
+div.review span{
+   display:block;
+   float:right;
+   font-weight:bold;
+   color:#666;
+   margin:20px 0 0 0;
+}
+
+
+/* 店主の返信
+----------------------------------------*/
+div.master{
+	clear:both;
+	-moz-border-radius:15px;    /* 古いFirefox */
+   -webkit-border-radius: 15px; /* 古いSafari,Chrome */
+   border-radius: 15px;
+   background:#fbfde6;
+   
+   margin:30px 0 10px 0;
+   padding:15px;
+   
+}
+
+div.master p{
+	font-size:12px!important;
+	line-height:140%;
+	color:#552A00;
+   
+}
+
+div.master h4{
+	color:#fe5a01;
+	margin-bottom:15px;
+}
+
+
+
+/* ページャー
+----------------------------------------*/
+
+ul.pager{
+	margin:25px auto 0 auto;
+	text-align:center;
+	height:36px;
+}
+
+ul.pager li{
+	display: inline-block;
+}
+
+ul.pager li.first a,
+ul.pager li.last a{
+	font-size:16px;
+	width:50px;
+	color:#666;
+	text-decoration:underline;
+	background:none;
+	border:0;
+}
+
+ul.pager li.first a:hover,
+ul.pager li.last a:hover{
+	color:#666;
+	text-decoration:none;
+}
+
+ul.pager li a{
+	display: inline-block;
+	width:36px;
+	height:31px;
+	padding-top:5px;
+	font-size:18px;
+	-moz-border-radius: 5px;    /* Firefox */
+   	-webkit-border-radius: 5px; /* Safari,Chrome */
+   	border-radius: 5px;
+	background:#eeeeee;
+	border:1px solid #9f9f9f;
+	color:#333;
+	text-decoration:none;
+	font-weight:bold;
+	margin:0 5px;
+	vertical-align:text-top;
+}
+
+
+
+ul.pager li a:hover{
+	text-decoration:underline;
+	color:#910505;
+}
+
+ul.pager li span{
+	display: inline-block;
+	width:36px;
+	height:31px;
+	font-size:18px;
+	padding-top:5px;
+	-moz-border-radius: 5px;    /* Firefox */
+   	-webkit-border-radius: 5px; /* Safari,Chrome */
+   	border-radius: 5px;
+	background:#9FA0A0;
+	border:1px solid #ffffff;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	margin:0 5px;
+	vertical-align:text-top;
+}

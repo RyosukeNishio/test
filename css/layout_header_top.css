@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+
+/*----------------------------- 
+			ヘッダー
+----------------------------- */
+
+header{
+	margin:0 auto 10px auto;
+}
+
+header #header_top{
+	width:1024px;
+	margin:0 auto;
+	padding-top:5px;
+}
+
+
+header #header_top h1{
+	width:600px;
+	float:left;
+	font-size:11px;
+	font-weight:normal;
+	line-height:140%;
+	margin-right:21px;
+}
+
+header #header_top h1 a{
+	color:#666;
+	text-decoration:none;
+}
+
+header hr{
+	margin:0;
+	border:0;
+	background:url(../images/common/header_line.jpg) repeat-x;
+	height:9px;
+}
+
+header #header_logo{
+	width:1024px;
+	margin:0 auto;
+}
+
+header div#cago_box{
+	-moz-border-radius:5px;    /* 古いFirefox */
+   -webkit-border-radius: 5px; /* 古いSafari,Chrome */
+   border-radius: 5px;
+   background:#f2f2f2;
+   padding:8px 10px 0 10px;
+   width:300px;
+   text-align:center;
+   float:right;
+   margin:10px 0 0 10px;
+}
+
+
+header div#cago_box ul{
+	margin:0 0 0 10px;
+}
+
+header div#cago_box ul li{
+	background:url(../images/common/yajirushi.png) no-repeat 0 0;
+	font-size:11px;
+	width:85px;
+	float:left;
+	text-align:left;
+	padding:0 0 0 10px;
+	line-height:120%;
+}
+
+header div#cago_box ul li a{
+	text-decoration:none;
+	color:#333;
+}
+
+nav{
+	clear:both;
+	margin:0;
+}
+
+nav ul{
+	width:1024px;
+	margin:0 auto;
+}
+
+nav ul li{
+	float:left;
+}
+
+
+/*----------------------------- 
+メインバナーとナビゲーション
+----------------------------- */
+
+#top_main{
+	clear:both;
+	background:url(../images/top/top_bg.png) repeat-x;
+	margin:0 0 30px 0;
+}
+
+
+#top_main_inner{
+	background:url(../images/top/main.jpg) no-repeat;
+	width:1100px;
+	height:645px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:0 0 0 10px;
+}
+
+div.use_box{
+	width:240px;
+	height:150px;
+	margin:485px 15px 0 0;
+	line-height:120%;
+	float:left;
+	box-sizing:border-box;
+	padding:85px 0 0 35px;
+}
+
+#top_main_inner div.nav1{
+	background:url(../images/top/navi1.png) no-repeat;
+}
+
+#top_main_inner div.nav2{
+	background:url(../images/top/navi2.png) no-repeat;
+}
+#top_main_inner div.nav3{
+	background:url(../images/top/navi3.png) no-repeat;
+}
+#top_main_inner div.nav4{
+	background:url(../images/top/navi4.png) no-repeat;
+}
+#top_main_inner div.nav5{
+	background:url(../images/top/navi5.png) no-repeat;
+}
+
+

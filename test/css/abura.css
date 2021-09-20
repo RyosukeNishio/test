@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+
+/*-----------------------------
+	油汚れ
+----------------------------- */
+.abura_navi{
+	margin:20px 0 50px 20px;
+	width:645px;
+	border:#fbcbaa solid 1px;
+	padding-bottom:10px;
+}
+
+.abura_navi_in{
+	margin-top:20px;
+	width:150px;
+	float:left;
+	margin-left:10px;
+	font-size:85%;
+	line-height: 1.5;
+}
+
+.abura_navi_in a{
+	text-decoration:none;
+}
+
+.page_nave{
+	margin:30px 0 50px 120px;
+}
+
+.page_nave img{
+	margin-right:6px;
+}
+
+.abura_navi_index1{
+	background-color:#F0F0F0;
+}
+
+.abura_navi_index2{
+	border-top:1px solid #CCCCCC;
+}
+
+.abura_navi2{
+	margin:20px 0 50px 20px;
+	width:550px;
+	border:#89d070 solid 1px;
+}
+
+
+.abura_navi_in2{
+	margin-top:15px;
+	width:150px;
+	float:left;
+	padding-left:20px;
+}
+
+.abura_navi_index_text{
+	padding: 5px 50px 5px 20px;
+	height:80px;
+	float:left;
+	width:350px;
+}
+
+.abura_navi_index_text a{
+	text-decoration:none;
+}
+
+
+.abura_navi_index_img{
+	padding: 5px 50px 5px 20px;
+	height:60px;
+	width:200px;
+}
+
+.abura_navi3{
+	margin:15px 0 20px 20px;
+	width:550px;
+	border:#fbcbaa solid 1px;
+	height:180px;
+}
+
+.abura_navi_in3{
+	margin:15px;
+	width:550px;
+}
+
+.abura_navi_text2{
+	margin-left:10px;
+	height:200px;
+	font-size:80%;
+	line-height: 1.5;
+}
+
+.abura_navi_text2 a{
+	text-decoration:none;
+}
+
+.page_nave2{
+	margin:10px 0 10px 5px;
+}
+
+.page_nave2 img{
+	margin-right:5px;
+}
+
+.sentaku{
+	line-height: 2;
+}
+
+img.border{
+	border: dotted thin black;
+}
+
+
+.kotu{
+	width:450px;
+	height:200px;
+	color:#DB0000;
+	font-size:13px;
+	background:url(../images/abura/hukidashi.jpg) no-repeat;
+	line-height:160%;
+	margin-top:10px;
+}
+
+.kotu p{
+	margin:30px 50px 0 70px;
+	padding:20px 70px
+}
+
+.memo_title{
+	color:#3333cc;
+	font-size:18px;
+	margin: 10px 0 20px 0;
+	font-weight:bold;
+}
+
+.abura_base{
+	line-height: 1.7 !important;
+	font-size: 14px;
+}
+
+
+/*----------------------------- 
+　油汚れ　index　活用事例ナビ	
+----------------------------- */
+div.tabbox p{
+	margin:0;
+	padding:0;
+}
+
+div.tabbox p img{
+	display:block;
+	float:left;
+	margin:0;
+}
+
+
+div#tab1,div#tab2,div#tab3,div#tab4{
+	margin:50px 0 0 0;
+	
+}
+
+
+
+div#tab3 h3{
+	border-radius: 30px;        /* CSS3草案 */  
+    -webkit-border-radius: 30px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 30px;   /* Firefox用 */  
+	background:#e9a902;
+	padding:5px 0;
+	text-align:center;
+	color:#ffffff;
+	width:260px;
+	position:absolute;
+	z-index:99;
+	
+}
+
+div.jirei_box{
+	border-radius: 20px;        /* CSS3草案 */  
+    -webkit-border-radius: 20px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 20px;  
+	border:1px solid #CCC;
+	position:relative;
+	top:15px;
+	margin:0 0 50px 0;
+	padding:40px 0 0 0;
+	left:5px;
+	box-sizing:border-box;
+	width:670px;
+}
+
+div.jirei_box div{
+	width:220px;
+	margin:0;
+	float:left;
+}
+
+
+div.jirei_box ul{
+	font-size:14px;
+	margin:10px 0 0 5px;
+	line-height:160%;
+}
+
+div.jirei_box ul li{
+	padding:0 0 0 11px;
+	margin:0 0 20px 0;
+}
+
+div.jirei_box ul li span{
+	color:#f872ea;
+}
+
+div.jirei_box ul li a{
+	color:#333;
+	text-decoration:none;
+}
+
+div.jirei_box ul li a:hover{
+	text-decoration:underline;
+}
+
+
+div#tab3 div.jirei_box ul li{
+	background:url(../images/common/li_mark_yellow.png) no-repeat 0 0.4em;
+	
+}

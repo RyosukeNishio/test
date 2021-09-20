@@ -1,0 +1,38 @@
+
+
+/*-----------------------------
+	ÉÅÉfÉBÉAåfç⁄èÓïÒ
+----------------------------- */
+
+
+.topix dl
+{
+	width: auto;
+	font-size: 100%;
+	margin: 0 0 0 10px;
+	padding: 0 0 10px 0;
+	position: relative;
+}
+
+.topix dl dt
+{
+	width: auto;
+	margin: 0;
+	padding: 15px 0 10px 0;
+	position: absolute;
+	left: 0;
+	font-weight:bold;
+}
+
+.topix dl dd
+{
+	clear:both;
+	margin: 0;
+	padding: 15px 0 10px 8.0em;
+	margin-bottom: 5px;
+	border-style: dashed;
+	border-width: 0 0 1px 0;
+	border-color: #b3b3b3;
+	height:auto;
+}
+

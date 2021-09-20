@@ -1,0 +1,513 @@
+/*記事一覧ページ */
+#kijibasic section:after,
+ #kijibasic article .thumb:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0px;
+}
+
+#kijibasic section.cl_list{
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-box;
+    display:-webkit-flexbox;
+    display:-moz-flexbox;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:flex;
+    -webkit-box-lines:multiple;
+    -moz-box-lines:multiple;
+    -webkit-flex-wrap:wrap;
+    -moz-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+
+/*2カラム*/
+#kijibasic section.cl_list article {
+	width: 350px;
+    text-align: left;
+    margin: 0 70px 30px 0;
+    padding: 0 0 20px 0;
+    position: relative;
+	border:1px solid #B8DEEF;
+}
+#kijibasic section.cl_list article:nth-of-type(even){
+	 margin: 0 0 30px 0;
+}
+#kijibasic section.cl_list article:nth-of-type(2n+1){
+	clear:both;
+}
+#kijibasic section.cl_list article .thumb {
+    width: 350px;
+    height: 173px;
+    margin: 0 0 20px 0;
+    position: relative;
+    background-color: #eee;
+}
+#kijibasic section.cl_list article .thumb a {
+    width: 350px;
+    height: 173px;
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+#kijibasic section.cl_list article .cat_name {
+    width: 240px;
+    font-size: 13px;
+    padding: 0 20px;
+    margin: 0 0 10px 0;
+    line-height: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+#kijibasic section.cl_list article .cat_name span{
+	display: block;
+	float:left;
+	margin-right:15px;
+}
+
+#kijibasic section.cl_list article div.icon{
+    display: block;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+}
+#kijibasic section.cl_list article div.icon span{
+    display: block;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	padding:6px;
+	float:right;
+	margin:0 1px;
+}
+#kijibasic section.cl_list article div.icon span::before {
+	content: '';
+	display: inline-block;
+   
+	width:30px;
+	height:30px ;
+	background-size: contain;
+	vertical-align: middle;
+}
+
+/*  カビ */
+#kijibasic article .cat_name span.color30 a{
+	color:#7782bb;
+}
+#kijibasic span.cat_icon30 {
+    background-color: #7782bb;
+}
+#kijibasic span.cat_icon30::before {
+    background: url(../images/sp/common/cat_ico30.png) no-repeat;
+	background-size: contain;
+}
+
+/*  除菌 */
+#kijibasic article .cat_name span.color29 a{
+	color:#dd95c4;
+}
+#kijibasic span.cat_icon29 {
+    background-color: #dd95c4;
+}
+#kijibasic span.cat_icon29::before {
+    background: url(../images/sp/common/cat_ico29.png) no-repeat;
+	background-size: contain;
+}
+
+/*  茶渋 */
+#kijibasic article .cat_name span.color28 a{
+	color:#77bb99;
+}
+#kijibasic span.cat_icon28 {
+    background-color: #77bb99;
+}
+#kijibasic span.cat_icon28::before {
+    background: url(../images/sp/common/cat_ico28.png) no-repeat;
+	background-size: contain;
+}
+
+/*  水垢 */
+#kijibasic article .cat_name span.color27 a{
+	color:#6abbc9;
+}
+#kijibasic span.cat_icon27 {
+    background-color: #6abbc9;
+}
+#kijibasic span.cat_icon27::before {
+    background: url(../images/sp/common/cat_ico27.png) no-repeat;
+	background-size: contain;
+}
+
+/*  臭い */
+#kijibasic article .cat_name span.color26 a{
+	color:#c99b6a;
+}
+#kijibasic span.cat_icon26 {
+    background-color: #c99b6a;
+}
+#kijibasic span.cat_icon26::before {
+    background: url(../images/sp/common/cat_ico26.png) no-repeat;
+	background-size: contain;
+}
+
+/*  シミ */
+#kijibasic article .cat_name span.color25 a{
+	color:#5970d3;
+}
+#kijibasic span.cat_icon25 {
+    background-color: #5970d3;
+}
+#kijibasic span.cat_icon25::before {
+    background: url(../images/sp/common/cat_ico25.png) no-repeat;
+	background-size: contain;
+}
+
+
+/*  黄ばみ */
+#kijibasic article .cat_name span.color24 a{
+	color:#c9b86a;
+}
+#kijibasic span.cat_icon24 {
+    background-color:#c9b86a;
+}
+#kijibasic span.cat_icon24::before {
+    background: url(../images/sp/common/cat_ico24.png) no-repeat;
+	background-size: contain;
+}
+
+/*  油汚れ */
+#kijibasic article .cat_name span.color5 a{
+	color:#775d48;
+}
+#kijibasic span.cat_icon5 {
+    background-color:#775d48;
+}
+#kijibasic span.cat_icon5::before {
+    background: url(../images/sp/common/cat_ico5.png) no-repeat;
+	background-size: contain;
+}
+
+/*  台所 */
+#kijibasic article .cat_name span.color15 a{
+	color:#ed8957;
+}
+#kijibasic span.cat_icon15 {
+    background-color:#ed8957;
+}
+#kijibasic span.cat_icon15::before {
+    background: url(../images/sp/common/cat_ico15.png) no-repeat;
+	background-size: contain;
+}
+
+/*  洗面所 */
+#kijibasic article .cat_name span.color32 a{
+	color:#79b0e7;
+}
+#kijibasic span.cat_icon32 {
+    background-color:#79b0e7;
+}
+#kijibasic span.cat_icon32::before {
+    background: url(../images/sp/common/cat_ico32.png) no-repeat;
+	background-size: contain;
+}
+
+
+/*  室内 */
+#kijibasic article .cat_name span.color11 a{
+	color:#93c572;
+}
+#kijibasic span.cat_icon11 {
+    background-color:#93c572;
+}
+#kijibasic span.cat_icon11::before {
+    background: url(../images/sp/common/cat_ico11.png) no-repeat;
+	background-size: contain;
+}
+
+/*  トイレ */
+#kijibasic article .cat_name span.color31 a{
+	color:#c96f6a;
+}
+#kijibasic span.cat_icon31 {
+    background-color:#c96f6a;
+}
+#kijibasic span.cat_icon31::before {
+    background: url(../images/sp/common/cat_ico31.png) no-repeat;
+	background-size: contain;
+}
+
+
+#kijibasic article h3 {
+    padding: 0 20px !important;
+    margin: 0 0  10px!important ;
+    font-size: 20px;
+    line-height: 1.25 !important;
+    min-height: 62px;
+	font-weight:600 !important;
+	border:none !important;
+	background: #fff!important;
+}
+#kijibasic article h3 a {
+	color:#0B90D0 !important;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+#kijibasic article .extract {
+    line-height: 20px;
+    padding: 0 20px;
+    margin: 0 0 10px 0;
+	height: 100px;
+	overflow: hidden;
+}
+#kijibasic article .readMore {
+    width: auto;
+    text-align: right;
+    padding: 0 20px;
+}
+#kijibasic article .readMore a {
+    display: inline-block;
+    padding: 0 1em;
+    color: #fff;
+    background: #00aaee;
+    border-radius: 3px;
+    line-height: 36px;
+}
+
+
+/*3カラム　事例集一覧*/
+#kijibasic .type_cl{
+	width:100%;
+	box-sizing: border-box;
+	margin-bottom:30px;
+}
+#kijibasic .type_cl h3,#kijibasic .type_cl_r h3{
+	border-radius: 25px;
+	margin-left:0 !important;
+	margin-right:0 !important;
+	text-align:center ;
+}
+
+#kijibasic ul.typelist_nav{
+	padding:0 !important;
+    box-sizing: border-box;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#kijibasic ul.typelist_nav li{
+	 box-sizing: border-box;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width:50%;
+    border: #ccc solid 1px;
+}
+
+#kijibasic ul.typelist_nav:after,
+#kijibasic ul.typelist_nav li:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0px;
+}
+
+#kijibasic ul.typelist_nav > li:nth-of-type(2n){
+	border-left:none;
+}
+
+#kijibasic ul.typelist_nav li a{
+	display: block;
+	width:100%;
+	padding:12px 0 ;
+	text-align: center;
+	box-sizing: border-box;
+	font-size:15px;
+	line-height:1.4em;
+}
+
+#kijibasic ul.typelist_nav li a img{
+	display: block;
+	margin:0 auto 4px;
+}
+
+#kijibasic ul.typelist_nav li a:hover,
+#kijibasic ul.typelist_nav li div a:hover{
+	background:#e7f6fd;
+	color:#1484c7;
+}
+#kijibasic ul.typelist_nav li div.plist a:hover{
+	background:url(../images/common/li_mark_yellow.png) no-repeat left 50% #e7f6fd;
+}
+
+#kijibasic ul.typelist_nav li .p_clbox{
+	width:100%;
+	margin: 0 auto;
+	padding:10px 0 ;
+}
+
+#kijibasic ul.typelist_nav li .pico,
+#kijibasic ul.typelist_nav li .plist{
+	width:35%;
+	padding: 0 0 0 1%!important;
+	box-sizing: border-box;
+	display: table-cell;
+	vertical-align: middle;
+}
+#kijibasic ul.typelist_nav li .pico a,
+#kijibasic ul.typelist_nav li .plist a{
+	width:100% !important;
+	display: block !important;
+	border-bottom:none !important;
+}
+
+#kijibasic ul.typelist_nav li .pico a{
+	font-weight:700;
+	font-size:16px;
+	color:#1484c7;
+	letter-spacing: -0.1em
+}
+#kijibasic ul.typelist_nav li .plist{
+	width:64%;
+	padding: 0 0 0 15px !important;
+	letter-spacing: -0.04em;
+}
+
+#kijibasic ul.typelist_nav li .plist a{
+	text-align: left;
+	background:url(../images/common/li_mark_yellow.png) no-repeat left 50%;
+	padding:10px 0 10px 16px;
+}
+
+
+#kijibasic h3.wide{
+	clear:both;
+	padding:50px 0 0 0!important;
+	background:#fff!important;
+	color:#333!important;
+	font-size:24px!important;
+	text-shadow:none!important;
+}
+#kijibasic section.cl_list article.cl3 {
+	width: 245px;
+    text-align: left;
+    margin: 0 25px 30px 0;
+    padding: 0 0 20px 0;
+    position: relative;
+	border:1px solid #B8DEEF;
+	box-sizing: border-box;
+}
+#kijibasic section.cl_list article.cl3:nth-of-type(3n){
+	margin-right:0;
+}
+#kijibasic section.cl_list article.cl3:nth-of-type(3n+1){
+	clear:both;
+}
+#kijibasic section.cl_list article.cl3:nth-of-type(2n+1){
+	clear: none;
+}
+#kijibasic section.cl_list article.cl3 .thumb {
+    width: 245px;
+    height: 120px;
+    margin: 0 0 20px 0;
+    position: relative;
+    background-color: #eee;
+}
+#kijibasic section.cl_list article.cl3 .thumb a {
+    width: 243px;
+    height: 120px;
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+
+/**/
+.waku_og,
+.waku_og_list{
+	width:95%;
+	border-radius: 15px;        /* CSS3草案 */  
+    -webkit-border-radius: 15px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 15px;   /* Firefox用 */ 
+	border:2px solid #F60;
+	margin:20px auto 50px auto;
+	font-size:95%;
+}
+.waku_og a,
+.waku_og_list a{
+	display: block;
+	padding:15px 2%;
+	text-decoration:none;
+	color:#333333;
+	line-height:200%;
+	border-bottom:2px dotted #ccc;
+
+}
+.waku_og_list a{
+	padding:15px 25px;
+}
+.waku_og a:last-of-type,
+.waku_og_list a:last-of-type{
+	border-bottom:none;
+}
+.waku_og a:hover,
+.waku_og_list a:hover{
+	background:#FFEFDF;
+}
+
+.waku_og a strong,
+.waku_og_list a strong{
+	padding:0 !important;
+}
+
+/*カテゴリ下段テキスト*/
+.cate_text{
+	margin:20px 0 100px;
+}
+.cate_text .kanren_li{
+	margin:0 20px;
+}
+.cate_text .kanren_li:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.cate_text .kanren_li a{
+	width:50%;
+	display: block;
+	float:left;
+	color:#008DD6 !important;
+	font-weight:600;
+	padding:18px 14px 18px 50px;
+	box-sizing: border-box;
+	border-right:1px dotted #ccc;
+	background:url(../images/common/arw_pk.png) no-repeat left 15px top 50% #EEF9FF;
+}
+.cate_text .kanren_li a:nth-of-type(even){
+	border-right:none ;
+}
+.cate_text .kanren_li a:visited{
+	color:#333 !important;
+}
+.cate_text .kanren_li a:hover{
+	background-color: #DFF5FF ;
+	color:#008DD6 !important;
+}

@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h2.slash{
+    position: relative;
+    overflow: hidden;
+    padding: 1rem 2rem 1rem 130px;
+    border: 2px solid #000;
+    margin: 20px;
+    font-size: 25px;
+    text-align: left;
+	width: 120px;
+}
+
+h2.slash:before {
+  position: absolute;
+  top: -150%;
+  left: -100px;
+  width: 200px;
+  height: 300%;
+  content: '';
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background: #3DBDE0;
+}
+
+h2.slash span {
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    top: 14px;
+    left: 0;
+    display: block;
+    padding-top: 5px;
+    padding-left: 16px;
+    color: #fff;
+}
+h2.slash2{
+    position: relative;
+    overflow: hidden;
+    padding: 1rem 2rem 1rem 130px;
+    border: 2px solid #000;
+    margin: 20px;
+    font-size: 25px;
+    text-align: left;
+	width: 120px;
+}
+
+h2.slash2:before {
+  position: absolute;
+  top: -150%;
+  left: -100px;
+  width: 200px;
+  height: 300%;
+  content: '';
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background: #90C43E!important;
+}
+
+h2.slash2 span {
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    top: 14px;
+    left: 0;
+    display: block;
+    padding-top: 5px;
+    padding-left: 16px;
+    color: #fff;
+}
+h2.slash3{
+    position: relative;
+    overflow: hidden;
+    padding: 1rem 2rem 1rem 130px;
+    border: 2px solid #000;
+    margin: 20px;
+    font-size: 25px;
+    text-align: left;
+	width: 120px;
+}
+
+h2.slash3:before {
+  position: absolute;
+  top: -150%;
+  left: -100px;
+  width: 200px;
+  height: 300%;
+  content: '';
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background: #FBC901!important;
+}
+
+h2.slash3 span {
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    top: 14px;
+    left: 0;
+    display: block;
+    padding-top: 5px;
+    padding-left: 16px;
+    color: #fff;
+}
+h2.slash4{
+    position: relative;
+    overflow: hidden;
+    padding: 1rem 2rem 1rem 130px;
+    border: 2px solid #000;
+    margin: 20px;
+    font-size: 25px;
+    text-align: left;
+	width: 120px;
+}
+
+h2.slash4:before {
+  position: absolute;
+  top: -150%;
+  left: -100px;
+  width: 200px;
+  height: 300%;
+  content: '';
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background: #EF86AE!important;
+}
+
+h2.slash4 span {
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    top: 14px;
+    left: 0;
+    display: block;
+    padding-top: 5px;
+    padding-left: 16px;
+    color: #fff;
+}
+h2.slash0{
+    position: relative;
+    overflow: hidden;
+    padding: 1rem 2rem 1rem 130px;
+    border: 2px solid #000;
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: left;
+    width: auto;
+}
+
+h2.slash0:before {
+  position: absolute;
+  top: -150%;
+  left: -100px;
+  width: 180px;
+  height: 300%;
+  content: '';
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background:#000;
+}
+
+h2.slash0 span {
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    top: 14px;
+    left: 0;
+    display: block;
+    padding-top: 5px;
+    padding-left: 16px;
+    color: #fff;
+}

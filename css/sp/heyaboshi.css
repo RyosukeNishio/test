@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+.r{
+	width:auto;
+	float:none!important;
+	display:block!important;
+	margin:10px auto!important;
+}
+
+div.bg_blue{
+	background:#d7f7fb;
+	padding:10px;
+	margin:20px 0;
+}
+
+div.bg_blue p{
+	margin:5px 0;
+	border-bottom:1px dotted #CCC;
+}
+
+p{
+	margin-bottom:15px!important;
+}
+
+
+/*-----------------------------
+	エアコンお掃除
+----------------------------- */
+
+.waku_list,
+.waku_list1{
+	width:96%;
+	border:1.5px solid #008CD6;
+	border-radius: 10px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	text-align: center;
+	font-size:16px;
+	font-weight: bold;
+	margin:5px auto 20px auto;
+	background: url(../../images/sp/oosouji/m_check.png)top left no-repeat #FFD800;
+}
+.waku_list a,
+.waku_list a{
+	display: block;
+	text-decoration: none;
+	color:#008CD6;
+	padding:15px 2%;
+}
+
+.waku_tolist,
+.waku_tolist1{
+	width:96%;
+	border:1.5px solid #008CD6;
+	border-radius: 10px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	text-align: center;
+	font-size:16px;
+	font-weight: bold;
+	margin:5px auto 20px auto;
+	background: url(../../images/sp/oosouji/m_check.png)top left no-repeat #FFD800;
+}
+.waku_tolist a,
+.waku_tolist a{
+	display: block;
+	text-decoration: none;
+	color:#008CD6;
+	padding:15px 2%;
+}
+

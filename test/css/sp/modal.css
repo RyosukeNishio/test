@@ -1,0 +1,362 @@
+@charset "utf-8";
+/* menu button kaihei */
+#global {
+	width: 300px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 100%;
+	z-index:5000;
+	overflow-y: auto;
+	transition: all 0.5s ease;
+	/*background-color: rgba(255,255,255,0.8) !important;*/
+}
+#global2 {
+	width: 300px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 100%;
+	z-index: 5000;
+	overflow-y: auto;
+	transition: all 0.5s ease;
+	/*background-color: rgba(255,255,255,0.8) !important;*/
+}
+.modal{
+	background:#fff;
+	/* margin-top: 10px; */
+	position: absolute;
+}
+#disable-layer {
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 4999;
+}
+#global a{
+	text-decoration: none;
+	color:#333;
+}
+#global .info2 img.logo{
+	height: 55px;
+	position:relative;
+	top:10px;
+}
+.tenpo{
+	margin-top: 90px;
+	text-align: center;
+}
+img.mw{
+	display: block;
+	width:90%;
+	height:auto;
+	margin:0 auto 20px;
+}
+.pos_bottom20{
+	position:relative;
+	top:20px;
+}
+.modal-content {
+	text-align: center;
+	margin-top:50px;
+	padding:20px 20px;
+	background:#fff ;
+}
+.login_box{
+	background:#f8f8f8;
+	padding:20px 0 20px 0;
+	text-align:center;
+	margin-bottom:20px;
+}
+.login_box:after{
+	content: "";
+	clear: both;
+	display: block;
+  	height: 0;
+}
+.login_box span{
+	box-sizing:border-box;
+	font-weight:bold;
+}
+.login_box span.login{
+	display: block;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border:1px solid #777;
+	color:#777;
+	/*border:1px solid #f8980e;
+	color:#f8980e;*/	
+	text-align: center;
+	width:40%;
+	float:left;
+	padding:5px 0;
+	height:35px;
+	margin-left:10%;
+}
+.login_box span.login a{
+	/*color:#f8980e!important;*/
+	color:#777!important;
+}
+.login_box span.touroku{
+	display: block;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background:#777;
+	/*background:#f8980e;*/
+	color:#fff;
+	text-align: center;
+	width:40%;
+	float:left;
+	padding:5px 0;
+	height:35px;
+	margin-right:10%;
+}
+
+.login_box span.touroku a{
+	color:#fff!important;
+}
+
+.download_box{
+	text-align:center;
+	margin:0 auto;
+	width: 98%;
+}
+
+
+div#global ul{
+	margin:0 0 15px;
+	padding:0;
+}
+div#global ul li{
+	background:#fff;
+	font-size:14px;
+	letter-spacing:0.02em;
+	border-bottom:1px solid #ccc;
+	position: relative;
+}
+
+div#global ul li a{
+	display: block;
+	padding: 16px 8px;
+}
+
+#global ul li:after{
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 18px;
+	width: 7px;
+	height: 7px;
+	margin: -4px 0 0 0;
+	border-top: solid 2px #D2BEA0;
+	border-right: solid 2px #D2BEA0;
+	-webkit-transform: rotate(45deg);
+			transform: rotate(45deg);
+}
+#global ul li.title:after{
+	display: none;
+}
+div#global ul li.title{
+	font-size:16px !important;
+}
+
+div#global ul li.title a{
+	color:#fff;
+}
+div#global ul.ac,
+div#global ul.kaihei{
+	margin-bottom:0 !important;
+}
+
+div#global ul.tokushu li .t_img{
+	width:100px;
+	float:left;
+	margin-right:8px;
+}
+div#global ul.tokushu li .t_txt{
+	width: 150px;
+	float:left;
+}
+div#global ul.tokushu li .t_cl:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#global h2 {
+    color: #777;
+    font-size: 20px;
+    margin:35px 0 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+	position: relative;
+	padding: 0.25em 0.4em 5px !important;
+	vertical-align: bottom;
+}
+#global h2 img{
+	display: inline;
+	margin:0 6px 0 0 !important;
+	vertical-align: bottom;
+}
+#global h2:after {
+    display: block;
+    height: 3px;
+    margin: 8px 0 0;
+    content: "";
+    background: #008dd6;
+    background: -moz-linear-gradient(left, #008dd6 0%, #008dd6 25%, #e8e8e8 25%, #e8e8e8 100%);
+    background: -webkit-linear-gradient(left, #008dd6 0%, #008dd6 25%, #e8e8e8 25%, #e8e8e8 100%);
+    background: linear-gradient(to right, #008dd6 0%, #008dd6 25%, #e8e8e8 25%, #e8e8e8 100%);
+}
+
+div.spm_title{
+	padding:10px 0 10px 5px;
+	color:#333;
+	font-weight:bold;
+	font-size:18px;
+	margin:0;
+	border-bottom:1px solid #ccc;
+	margin-top:10px;
+}
+
+img.close{
+	vertical-align:middle;
+	float:right;
+	height:20px;
+	margin:15px 0 0 0 !important;
+	width:auto;
+}
+
+img.open{
+	width:20px;
+	float:right;
+	margin:0;
+}
+
+label {
+	display:block;
+	padding:16px 12px;
+	font-size:14px !important;
+}
+
+ul.kaihei li{
+	background:#F2FCFF!important;
+	border-bottom:1px dotted #ccc;
+}
+#global ul.s_guide{
+	width:90%;
+	margin:20px auto 30px;
+}
+#global ul.s_guide li{
+	color:#a09b9b;
+	background: none;
+	float:left;
+	width:33.3%;
+	font-weight:normal;
+	text-align: center;
+	border-bottom:1px solid #CCC;
+	padding:0 0 10px 0;
+	font-size:12px;
+}
+#global ul.s_guide li a{
+	padding:0;
+}
+#global ul.s_guide li img{
+	display:block;
+}
+#global ul.s_guide li:after{
+	display: none;
+}
+#global ul.s_guide li span{
+	border-right:1px solid #CCC;
+	display: block;
+	margin:0 auto 0 auto;
+	width:100%;
+	text-align: center;
+}
+
+#global ul.s_guide li:last-child span{
+	border:0;
+}
+
+#global ul.s_guide li img{
+	width:30px !important;
+	height:auto;
+	margin-bottom:5px;
+}
+
+#global ul.tokushu li img{
+	width:100px;
+	margin-right:15px;
+	vertical-align: middle;
+}
+
+#global ul.spm_rank li{
+	background: url(../../images/common/ico_rank1.png) no-repeat 6px 8px;
+	padding-left:38px;
+	
+}
+#global ul.spm_rank li.rnk2{
+	background: url(../../images/common/ico_rank2.png) no-repeat 6px 8px;
+}
+#global ul.spm_rank li.rnk3{
+	background: url(../../images/common/ico_rank3.png) no-repeat 6px 8px;
+}
+
+#global ul.form{
+	list-style: none;
+}
+#global ul.form li:after{
+	display: none;
+}
+#global ul.form li{
+	border-bottom:0 !important;
+}
+#global ul.form li a{
+	width:80%;
+	margin: 30px auto 15px;
+	display: block;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div#global ul.form li.mail img{
+	display: inline;
+	margin:0 5px 0 0 !important;
+	vertical-align: bottom;
+	width:40px;
+}
+div#global ul.form li.mail a{
+	vertical-align: bottom;
+	line-height:40px;
+	color:#624519;
+	border:1px solid #624519;
+	padding:15px ;
+	border-radius: 5px;
+}
+div#global ul.form li.tel a{
+	padding:0;
+}
+div#global ul.form li.tel img{
+	margin:0 auto  30px!important;
+	width:100% ;
+	max-width: 320px;
+}
+.m_menu{
+	width: 40px;
+	position: absolute;
+	left: 250px;
+	top: 25px;
+}
+.m_menu2{
+	width: 40px;
+	position:absolute;
+	top: 20px;
+	right: 35px;
+}

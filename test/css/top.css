@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#top{
+	width: 1450px;
+	margin: 0 auto;
+}
+
+#top_main video.movie {
+    margin: 0 auto 200px;
+	width: 1790px;
+}

@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+.f-right,.l,.auto,.r,.f-left{
+	width:auto;
+	float:none!important;
+	display:block!important;
+	margin:10px auto!important;
+}
+
+img.vc{
+	width:auto!important;
+	vertical-align:middle!important;
+}
+
+.tejun_r2 img{
+	width:auto;
+	float:none!important;
+	display:block!important;
+	margin:10px auto!important;
+}
+
+img.auto_left{
+	width:auto;
+	float:none!important;
+}
+
+p{
+	margin-bottom:15px;
+}
+
+.f28{
+	font-size:28px;
+	margin:15px 0 0 0;
+	display:block;
+}
+
+h3.line02{
+	clear:both;
+}
+
+/*-----------------------------
+kitchenフォルダ内他ページリンク
+----------------------------- */
+div.w100p{
+	width:100%;
+}
+div.vab{
+	margin:15px 0 200px 0;
+	text-align:center;
+}
+
+div.w100p div.vab img{
+	width:auto;
+	margin:0 auto;
+	
+}
+
+div.kitchen{
+   width:90%!important;
+   padding:20px 10px;
+   -moz-border-radius: 20px;    /* Firefox */
+   -webkit-border-radius: 20px; /* Safari,Chrome */
+   border-radius: 20px;         /* CSS3 */
+
+   border: 1px #f3a104 solid;     /* 枠線の装飾 */
+   background-color: #ffffff;   /* 背景色 */
+   margin:30px 0 0 0;
+}
+
+div.kitchen ul{
+	clear:both;
+	list-style:none;
+	margin:15px 0 0 10px;
+}
+
+div.kitchen ul li{
+   background:url(../../images/sentaku/sentaku/index/li_mark.jpg) no-repeat;
+   padding:0 0 0 40px;
+   margin:0 0 10px 0;
+   line-height:200%;
+}
+
+div.kitchen ul li.cup{
+   background:url(../../images/kitchen/cup.png) no-repeat;
+}
+div.kitchen ul li.jyaguchi{
+   background:url(../../images/kitchen/mizu.png) no-repeat;
+}
+div.kitchen ul li.mizu{
+   background:url(../../images/kitchen/mizu.png) no-repeat;
+}
+
+div.kitchen ul li.baby{
+   background:url(../../images/kitchen/baby.png) no-repeat;
+}
+div.kitchen ul li.reizou{
+   background:url(../../images/kitchen/reizouko.png) no-repeat;
+}
+div.kitchen ul li.yakan{
+   background:url(../../images/kitchen/yakan.png) no-repeat;
+}
+
+div.kitchen ul li a{
+	color:#333;
+	text-decoration:none !important;
+}
+
+div.kitchen ul li a:hover{
+  color:#800000;
+  text-decoration:underline !important;
+  font-weight:700;
+}
+
+div.koe2{
+	clear:both;
+}
+
+p.border-dotted{
+	border:2px dotted #ccc;
+	padding:10px;
+	font-size:12px;
+}
+
+/*----------------------------- 
+きれいッ粉　使い方事例集		
+----------------------------- */
+
+
+
+div#tab2 h3{
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	background:#ffefda;
+	padding:5px 0;
+	text-align:center;
+	color:#f77500;
+}
+
+
+	
+div.jirei_box{
+	border-radius: 20px;        /* CSS3草案 */  
+    -webkit-border-radius: 20px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 20px;  
+	border:1px solid #CCC;
+	position:relative;
+	top:5px;
+	margin:0 0 50px 0;
+	padding:10px 0 0 0;
+	left:5px;
+	box-sizing:border-box;
+	width:96%;
+}
+
+
+div.jirei_box div{
+	width:85%;
+	margin:5px;
+	padding:10px;
+}
+
+
+div.jirei_box ul{
+	font-size:14px;
+	margin:10px 0 0 3px;
+	line-height:160%;
+}
+
+
+div.jirei_box ul li{
+	padding:0 0 0 11px;
+	margin:0 0 20px 0;
+}
+
+div.jirei_box ul li span{
+	color:#f872ea;
+}
+
+div.jirei_box ul li a{
+	color:#333;
+	text-decoration:none;
+}
+
+div.jirei_box ul li a:hover{
+	text-decoration:underline;
+}
+
+
+div#tab2 div.jirei_box ul li{
+	background:url(../../images/common/li_mark_org.png) no-repeat ;
+	
+}
+
+
+div.jirei_midashibox{
+	padding:10px;
+	margin:0 auto;
+}
+
+
+
+div.jirei_midashibox table{
+	width:100%;
+	margin:0 auto 20px auto;
+	border-collapse:collapse;
+}
+
+
+
+div.jirei_midashibox table td{
+	width:30%;
+	border:1px solid #025783;
+	padding:10px;
+	font-size:13px;
+	background: #ffffff url(../images/common/yajirushi03.png) no-repeat 95% 50%;
+	background-size:8px auto;
+	line-height:120%;
+	height:30px;
+}

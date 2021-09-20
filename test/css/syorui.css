@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@media print{
+.btnbox{display:none;}
+} 
+
+/*----------------------------- 
+管理画面
+書類　プリント用
+----------------------------- */
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size:12px;
+	line-height:160%;
+	font-family:"Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",Osaka,"MS P Gothic","ＭＳ Ｐゴシック",sans-serif;
+	letter-spacing:0.02em;
+	color:#000; 
+	background:#FFF;
+	text-align:left;
+}
+a{
+	color:#933;
+}
+	a:hover{
+		color:#C00;
+		text-decoration:none;
+	}
+img{
+	border:none;
+	margin:0;
+}
+	img.l{
+		float:left;
+		margin:0 15px 15px 0;
+	}
+	img.r{
+		float:right;
+		margin:0 0 15px 15px;
+	}
+	img.link{
+		vertical-align: middle;
+		margin: 0 5px;
+	}
+
+div{
+	overflow: hidden;
+}
+hr{
+	clear:both;
+	height:1px;
+	margin:15px 0;
+	page-break-after: always;
+}
+
+
+/*----------------------------- 
+	レイアウト
+----------------------------- */
+#container{
+	width:700px;
+	height:auto;
+	margin:0 auto;
+	text-align:left;
+	background:#FFFFFF;
+}
+.atesaki{
+	width:300px;
+	float:left;
+}
+.shop{
+	width:250px;
+	float:right;
+}
+.bikou{
+	width:250px;
+	float:right;
+}
+
+.btnbox{
+	text-align:center;
+	padding:20px;
+}
+.clr{
+	clear:both;
+}
+.f-left{
+		float:left;
+	}
+.f-right{
+		float:right;
+	}
+.a-left{
+		text-align:left;
+	}
+.a-right{
+		text-align:right;
+	}
+.a-center{
+		text-align:center;
+	}
+.more{
+	text-align:right;
+	margin-right:10px;
+}
+.mt0{
+	margin-top:0;
+}
+.mb10{
+	margin-bottom:10px;
+	}
+
+/*----------------------------- 
+フォント  
+----------------------------- */
+.red{
+	color:#cc0000;
+}
+
+.blue{
+	color:#0076bc;
+}
+
+.green{
+	color:#129330;
+}
+.ygreen{
+	color:#9adb77;
+}
+.pink{
+	color:#e4238e;
+}
+.og{
+	color:#ff9933;
+}
+.brown{
+	color:#663333;
+}
+
+.sm{
+		font-size:11px;
+	}
+.bg{
+		font-size:15px;
+	}
+.bo{
+	font-weight:bold;
+}
+
+/*----------------------------- 
+見出し 等
+----------------------------- */
+h1{
+	font-size:20px;
+	margin:30px;
+	text-align:center;
+}
+h2{
+	font-size:12px;
+	margin:20px 0 10px 0;
+}
+p{
+
+	margin:0 0 10px 0;
+}
+
+.pagetop{
+	text-align:right;
+	font-size:11px;
+	margin-right:10px;
+}
+
+table{
+	margin:10px 0 20px 0;
+}
+th{
+	padding:3px;
+	background:#EEE;
+}
+td{
+	padding:3px;
+}

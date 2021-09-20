@@ -1,0 +1,731 @@
+@charset "UTF-8";
+
+.r,
+.l,
+.left,
+.r10{
+	width:auto;
+	float:none!important;
+	display:block!important;
+	margin:10px auto!important;
+}
+
+/*-----------------------------
+	その他　掃除　エアコン
+----------------------------- */
+.yogore_base{
+	line-height: 1.7 !important;
+	font-size: 14px;
+}
+
+.description4{
+	width:630px;
+	padding:5px 0 0 10px;
+	border: 5px #0000a0 solid;
+}
+
+
+
+/*-----------------------------
+	掃除　　index
+----------------------------- */
+.youeki{
+}
+	.youeki p{
+		font-size:12px;
+		line-height:150%;
+		text-align:center;
+}
+
+
+.box-kadomaru{
+	width:96%;
+	background:#e5f6fe url(../../images/common/kadomaru_01.gif) repeat top;
+	margin:auto;
+}
+.box-kadomaru-text{
+	width:auto;
+	font-size:14px;
+	padding:3% 2%;
+	
+}
+.box-kadomaru-text a{
+	text-decoration:none;
+}
+
+.box-kadomaru-img{
+	width:auto;
+	text-align:center;
+	margin:15px 0 0 0;
+}
+
+
+a.yajirushi{
+	display:block;
+	font-size:14px;
+	color:#BD0000;
+	padding:3px 0 0 55px;
+	background:url(../../images/common/click.gif) no-repeat;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+a.yajirushi:hover{
+	color:#00A854;
+}
+
+
+
+
+/*-----------------------------
+	洗濯機のお掃除
+----------------------------- */
+
+img.mama{
+	margin:10px 0 0 0;
+}
+
+h2.sentakuki{
+	font-size:18px !important;
+	line-height:160%!important;
+	width:auto!important;
+	height:auto!important;
+	margin:10px 0 0 5px!important;
+	padding:0 !important;
+	background:none !important;
+}
+
+h3.h3_s{
+	margin:auto;
+	font-size:110% !important;
+	line-height:160% !important;
+	background:none !important;
+	text-shadow: none !important;
+	color:#000 !important;
+}
+
+h3.h3_s2{
+	margin:20px 0 0 10px;
+	font-size:120%;
+	line-height:160%;
+}
+
+div.topics{
+	border:2px dotted #FF8040;
+	margin:10px 10px 30px;
+	padding:10px;
+}
+
+div.topics ul{
+	list-style:none;
+	margin:0!important;
+}
+
+div.topics ul li{
+	background:url(../../images/common/li_mark.gif) no-repeat 0 1em;
+	padding:0 0 0 15px;
+	width:auto;
+	font-size:15px;
+	line-height:2.6;
+}
+
+div.topics ul li a{
+	text-decoration:none;
+	color:#333;
+}
+
+div.topics ul li a:hover{
+	text-decoration:underline;
+	color:#FF671E;
+}
+
+ul.kabi_li li{
+	font-size:14px;
+	margin:0 0 25px 0;
+	color:#333;
+}
+
+ul.kabi_li li strong.b{
+	display:block;
+	-moz-border-radius: 5px;    /* Firefox */
+	-webkit-border-radius: 5px; /* Safari,Chrome */
+	border-radius: 5px;
+	width:auto;
+	background:#007EBB;
+	padding:10px 10px;
+	color:#FFF;
+	margin-bottom:10px;
+}
+
+ul.kabi_li li strong.g{
+	display:block;
+	-moz-border-radius: 5px;    /* Firefox */
+	-webkit-border-radius: 5px; /* Safari,Chrome */
+	border-radius: 5px;
+	width:auto;
+	background:#37a842;
+	padding:10px 10px;
+	color:#FFF;
+	margin-bottom:10px;
+}
+
+div.yogore p.f12{
+	font-size:14px !important;
+	margin-bottom:25px !important;
+}
+
+div.black_box{
+	width:auto;
+	border:2px solid #000;
+	padding:6% 2% 3%;
+	margin:0 auto 40px;
+}
+
+ul.check_li{
+	width:92%;
+	list-style:none;
+	margin:0 auto !important;
+}
+
+ul.check_li li{
+	background:url(../../images/common/check.gif) no-repeat;
+	padding:0 0 6% 4%;
+	color:#333;
+	font-size:14px;
+	margin: 0 0 6% 0;
+	line-height:160%;
+	border-bottom:dotted #CCC 1px;
+}
+
+ul.check_li li img{
+	margin-bottom:10px !important;
+}
+
+ul.check_li li strong.title{
+	font-size:18px;
+	display:block;
+	margin-bottom:10px;
+	padding:0 0 2% 4%;
+}
+
+.tejun_waku2{
+	margin-bottom:25px;
+}
+
+.description3{
+	width:92%;
+	margin:0 auto ;
+	padding:2% 4%;
+	border: 2px #0000a0 solid;
+}
+
+.k_img{
+	width:49%;
+	float:left!important;
+	margin:10px 2% 10px 0!important;
+}
+.k_img:nth-of-type(even){
+	margin-right:0 !important;
+}
+.img_souji{
+	width:auto;
+	float:none!important;
+	display:block!important;
+	margin:10px auto!important;
+}
+
+
+div.tabbox {
+	width:100%;
+}
+
+div.tabbox p img{
+	width:23%;
+}
+
+div#tab1,div#tab2,div#tab3,div#tab4{
+	margin:10px 0 0 0;
+	
+}
+
+div#tab4 h3{
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	background:#e8fcfb;
+	padding:5px 0;
+	text-align:center;
+	color:#3bd5d0;
+	
+}
+div.jirei_box{
+	border-radius: 20px;        /* CSS3草案 */  
+    -webkit-border-radius: 20px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 20px;  
+	border:1px solid #CCC;
+	position:relative;
+	top:5px;
+	margin:0 0 50px 0;
+	padding:10px 0 0 0;
+	left:5px;
+	box-sizing:border-box;
+	width:96%;
+}
+
+
+div.jirei_box div{
+	width:85%;
+	margin:5px;
+	padding:10px;
+}
+
+
+div.jirei_box ul{
+	font-size:14px;
+	margin:10px 0 0 3px;
+	line-height:160%;
+}
+
+
+div.jirei_box ul li{
+	padding:0 0 0 11px;
+	margin:0 0 20px 0;
+}
+
+div.jirei_box ul li span{
+	color:#f872ea;
+}
+
+div.jirei_box ul li a{
+	color:#333;
+	text-decoration:none;
+}
+
+div.jirei_box ul li a:hover{
+	text-decoration:underline;
+}
+
+div#tab4 div.jirei_box ul li{
+	background:url(../images/common/li_mark_green.png) no-repeat ;
+	
+}
+
+div.jirei_midashibox{
+	padding:10px;
+	margin:0 auto;
+}
+
+div.jirei_midashibox table{
+	width:100%;
+	margin:0 auto 20px auto;
+	border-collapse:collapse;
+}
+
+div.jirei_midashibox table td{
+	width:30%;
+	border:1px solid #025783;
+	padding:10px;
+	font-size:13px;
+	background: url(../images/common/yajirushi03.png) no-repeat 95% 50%;
+	background-size:8px auto;
+	line-height:120%;
+	height:30px;
+}
+
+/*-----------------------------
+	エアコンお掃除　air.css
+----------------------------- */
+.r,
+.l,
+.left,
+.r10{
+	width:auto;
+	float:none!important;
+	display:block!important;
+	margin:10px auto!important;
+}
+
+.f24{
+	font-size:18px;
+}
+
+.ml30{
+margin-left:0 !important;
+}
+
+.mt10{
+margin-top:20px;
+}
+
+.yogore_base{
+	line-height: 1.7 !important;
+	font-size: 16px;
+}
+
+.description4{
+	width:96%;
+	padding:5px 2% 0 2%;
+	margin:0 auto;
+	border: 3px #0000a0 solid;
+	box-sizing:border-box;
+
+}
+ ul{
+	width:96%;
+	margin:10px auto 5px auto;
+}
+p{
+	margin-bottom:15px!important;
+}
+.description7{
+	width:94%;
+	padding:3% 2%;
+	background:#e5f6fe url(../../../images/common/a2_p16.gif) repeat-x;
+	border: 1px #AAFFFF solid;
+}
+
+.tejun_waku{
+	width:96%;
+	height:auto;
+	clear:both;
+	background-color:#ffffff;
+	margin:10px auto 15px auto;
+	font-size:15px;
+	line-height:120%;
+}
+	.tejun_waku p{
+		padding:0 2% 0 2%;
+		}
+	.tejun_waku img{
+		margin:10px;
+		}
+	.tejun_waku strong{
+		color:#3333cc;
+                font-size:14px;
+		}
+	.tejun_waku strong.red{
+		color:#cc0000;
+                font-size:12px;
+		}
+
+
+/*-----------------------------
+	エアコンお掃除
+----------------------------- */
+
+.waku_list,
+.waku_list1{
+	width:96%;
+	border:1.5px solid #008CD6;
+	border-radius: 10px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	text-align: center;
+	font-size:16px;
+	font-weight: bold;
+	margin:5px auto 20px auto;
+	background: url(../../images/sp/oosouji/m_check.png)top left no-repeat #FFD800;
+}
+.waku_list a,
+.waku_list a{
+	display: block;
+	text-decoration: none;
+	color:#008CD6;
+	padding:15px 2%;
+}
+
+.waku_tolist,
+.waku_tolist1{
+	width:96%;
+	border:1.5px solid #008CD6;
+	border-radius: 10px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	text-align: center;
+	font-size:16px;
+	font-weight: bold;
+	margin:5px auto 20px auto;
+	background: url(../../images/sp/oosouji/m_check.png)top left no-repeat #FFD800;
+}
+.waku_tolist a,
+.waku_tolist a{
+	display: block;
+	text-decoration: none;
+	color:#008CD6;
+	padding:15px 2%;
+}
+
+div.bg_pink{
+	background:#fbfde6;
+	padding:10px;
+	margin:20px 0;
+}
+
+div.bg_pink p{
+	margin:5px 0;
+	border-bottom:1px dotted #CCC;
+}
+
+/*壁紙追加css*/
+ul.mokuji{
+	border:1px solid #ccc;
+	padding:15px;
+	box-sizing: border-box;
+}
+ul.mokuji li{
+	line-height:1.4em;
+	padding:5px 0 10px;
+   padding-left: 1.6em !important;
+   text-indent: -1.6em !important;
+}
+
+img.img3cl{
+	width:32% !important;
+	float:left;
+	margin:0 2% 6px 0 !important;
+	vertical-align: bottom;
+}
+img.img3cl:nth-of-type(3){
+	margin-right:0 !important;
+}
+
+.va-middle {
+    vertical-align: middle;
+}
+.tokutyou .blue_midashi {
+    width: 100%;
+    font-size: 22px !important;
+    color: #008CD6;
+    font-weight: 900 !important;
+    margin: 10px auto 15px auto;
+    line-height: 1.4;
+    text-align: center;
+	padding: 0 !important;
+}
+.marugo {
+    font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+.bor10 {
+    background: #FFF;
+    padding: 5px 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+	font-size: 15px !important;
+}
+.tokutyou {
+    width: 100%;
+    background: #e0f6fa;
+    padding: 20px 3%;
+    margin: 10px 0 20px 0;
+	box-sizing: border-box;
+}
+.tokutyou .clbox {
+    width: 100%;
+    margin: 0 auto 20px;
+}
+.tokutyou .clbox .tokutyou_mds {
+    width: 100%;
+    border-radius: 20px;
+    background: #008CD6;
+    padding: 8px ;
+    margin: 0 auto;
+    text-align: center;
+	box-sizing: border-box;
+}
+
+.clbox h3.power_midashi {
+	font-size:18px;
+	color:#ffffff;
+	font-weight:bold;
+	background:none !important;
+	margin:0 !important;
+	padding:0 !important;
+	text-shadow: none !important;
+}
+.clbox h3.power_midashi img{
+	width:25px;
+	height:25px;
+	margin-right:5px;
+}
+.clbox .tokutyou_con {
+    background: #ffffff;
+    width: 90%;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 2.5% 5%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.tejun_l {
+	float:none !important;
+	width:90%;
+	margin:0 auto 20px;
+	line-height:1.4em;
+}
+.tejun_l img{
+	display: block;
+	margin:0 auto;
+}
+.bf,.af{
+	font-size:22px !important;	
+}
+.bf{
+	color:#32b9ff;
+}
+.af{
+	color:#ff3240;
+}
+ul.reason_li {
+	width:92%;
+	margin:0 auto 30px;
+	padding:14px;
+	border:1px solid #ccc;
+}
+ul.reason_li li {
+    font-size: 14px;
+    background: url(../../images/top/li_mark_black.png) no-repeat 0 0.6em;
+    padding: 0 0 0 20px;
+    line-height: 2.0em;
+}
+img.kk{
+	width:120px;
+	float:left;
+}
+
+
+.keywords{
+	background:#FBFDE6;
+	padding:20px;
+	box-sizing: border-box;
+	font-size:15px;
+	margin-bottom:50px;
+}
+.keywords h3{
+	font-size: 24px;
+	margin-bottom:8px !important;
+	background:none !important;
+	text-shadow: none !important;
+	color:#000 !important;
+	text-align: left !important;
+	padding:0 !important;
+}
+.keywords a{
+	color:#333;
+	text-decoration: underline !important;
+	margin:10px 20px 0 0 ;
+	float:left;
+}.keywords a:hover{
+	filter:alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+
+}
+.to_item{
+	border:1px solid #ccc;
+	text-align: center;
+	margin-bottom:15px;
+}
+.to_item a:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.to_item a{
+	display: block;
+	padding:15px;
+	text-decoration: none;
+}
+.to_item a:hover{
+	filter:alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+.to_item img{
+	display: block;
+	width:120px;
+	height:auto;
+	margin:0 auto;
+}
+.to_item div{
+	width:94%;
+	margin:10px auto 5px;
+	line-height:1.4;
+}
+.to_item div p{
+	margin-bottom:8px !important;
+}
+.to_item div .item_btn {
+	display: block;
+	width:220px;
+	padding: 12px;
+	text-align:center;
+	background: #FFD700;
+	color:#3E2C07;
+	border-radius: 10px;
+	font-weight:bold;
+	margin:10px auto 0 !important;
+}
+section.select h4{
+	width:100%;
+	font-size:22px;
+	padding:8px;
+	text-align: center;
+	margin-bottom:10px;
+}
+.sz_box{
+	background:#FFF6EF;
+	padding:10px 15px;
+	box-sizing: border-box;
+	margin-bottom:30px;
+}
+
+.pn_hikaku{
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-direction: column;
+	margin:0 auto 20px ;
+}
+.pn_hikaku:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.pos,.neg{
+	width:94%;
+	margin:0 auto 20px;
+	padding:18px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	border:2px dashed #D90D4C;
+	background:#fff;
+}
+.neg{
+	border:2px dashed #0D70D9;
+}
+.pos strong{
+	font-size:18px;
+	margin-bottom:6px;
+	color:#D90D4C;
+}
+.neg strong{
+	font-size:18px;
+	margin-bottom:10px;
+	color:#0D70D9;
+}
+.pn_hikaku ul li{
+	padding-left: 1em;
+	text-indent: -1em;
+	margin-bottom:8px;
+}
+.pn_hikaku ul li p{
+	line-height:1.5em;
+	margin-bottom:0;
+}

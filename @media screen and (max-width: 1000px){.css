@@ -1,0 +1,29 @@
+@media screen and (max-width: 1000px){
+    .etegami a.etegami_a{
+        text-decoration: none;
+        background: #ff5555;
+        color: #fff;
+        margin: 25px auto 40px;
+        display: table;
+        padding: 10px 30px;
+        border-radius: 20px;
+        }
+    section.etegami p{
+      margin-top:20px;
+        }
+    }
+    
+    @media screen and (min-width: 1001px){
+    .etegami a.etegami_a{
+        text-decoration: none;
+        background: #ff5555;
+        color: #fff;
+        margin: 25px auto 40px;
+        display: table;
+        padding: 10px 30px;
+        border-radius: 20px;
+        }
+    section.etegami p{
+      margin-top:20px;
+        }
+    }

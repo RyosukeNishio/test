@@ -1,0 +1,551 @@
+@charset "UTF-8";
+
+/*----------------------------- 
+Fax・お電話でのご注文
+----------------------------- */
+div.chuumon{
+	width:50%;
+    font-size:12px;
+    float:left;
+    margin:20px 0 10px 0;
+    text-align:center;
+}
+div.chuumon{
+}
+/*----------------------------- 
+きれいッ管ページ
+----------------------------- */
+.kireikko_arrow_box{
+    width:100%;
+    height:50px;
+	position: relative;
+    background: #008bd6;
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:5px;
+    text-align:center;
+    line-height:50px;
+    margin-bottom:20px;
+}
+
+.kireikko_arrow_box:after{
+	top: 100%;
+	left:50%;
+	border:solid transparent;
+	content:" ";
+	height:0;
+	width:0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 139, 214, 0);
+	border-top-color: #008bd6;
+	border-width: 10px;
+	margin-left: -10px;
+}
+span.point{
+	display: block;
+	border-radius: 20px;
+	background: #ffeb3d;
+	text-align: center;
+	width:180px;
+	float:left;
+	margin:20px 10px 30px 0;
+	color:#00b9f2;
+	padding:20px 10px;
+	font-weight: bold;
+	font-size:20px;
+}
+.use_place,.use_place_point{
+	border:2px solid #a1ddfc;
+	border-radius:15px;
+	clear: both;
+}
+.use_place h4,.use_place_point h4{
+	background: #a1ddfc;
+	text-align: center;
+	color:#046998;
+	font-size:20px;
+	padding:20px 0;
+}
+.use_place ul{
+	
+}
+.use_place ul li{
+	width:20%;
+	float:left;
+	text-align: center;
+	font-size:14px;
+	color:#000;
+	font-weight: bold;
+	margin:20px 0;
+	
+}
+.use_place ul li img{
+	width:130px;
+	height:120px;
+	object-fit:cover;
+}
+.use_place_point ul{
+	margin:15px 0;
+}
+.use_place_point li{
+	font-size:15px;
+	color:#000;
+	font-weight: bold;
+	padding-left: 1.5em;
+	text-indent: -1.5em;	
+	margin-bottom:15px;
+}
+.use_place_point li::before{
+	content:"●";
+	margin-right:5px;
+	color:#ffeb3d;
+}
+.chuui{
+	font-weight: normal;
+	font-size:12px;
+	color:#ff0000;
+}
+ul.use_way{
+	margin:50px 0 0 0;
+	padding:0;
+}
+ul.use_way li{
+	width:350px;
+	float:left;
+	margin:0 20px 15px 0;
+	font-size: 15px;
+}
+ul.use_way li::last-child{
+	margin:0 ;
+}
+ul.use_way span{
+	font-size:18px;
+	display: block;
+	background: #f18d00;
+	color:#ffffff;
+	text-align: center;
+	border-radius:10px;
+	width:80px;
+	padding:5px 10px;
+	font-weight: bold;
+	margin-bottom:5px;
+}
+.kakaku{
+	font-weight: bold;
+	font-size:22px;
+	margin:30px 0 0 0!important;
+}
+.kakaku span{
+	font-size:14px;
+}
+.chuui_box{
+	font-size:15px;
+	width:69%;
+	font-weight: bold;
+	margin:15px 0;
+	color:#5c5f58;
+}
+.chuui_box li{
+	margin-bottom:10px;
+	padding-left: 1.5em;
+	text-indent: -1.5em;
+	font-size:13px;
+	font-weight: normal;
+	line-height: 140%;
+}
+.chuui_box li::before{
+	content:"・";
+}
+/*----------------------------- 
+商品ページ
+----------------------------- */
+
+hr{
+	clear:both;
+	border: 0;
+	border-top: #CCC dotted 3px;
+	margin:15px 0;
+}
+
+/*-- コンテンツ部分 --*/
+#products {
+	font-size:100%;
+	width: 100%;
+	margin: 0 auto;
+	line-height:140%;
+}
+
+
+#products p{
+	margin-bottom:0px;
+}
+/*-- 左側ボックス --*/
+.item_left {
+    width: 350px;
+    float: left;
+}
+
+/*-- 右側ボックス --*/
+.item_right {
+	width: 400px;
+    float:right;
+    margin-bottom:10px!important;
+    line-height:200%!important;
+    font-size:15px;
+}
+.item_right strong{
+	padding:0 !important;
+}
+
+/*-- h3 キャッチコピー --*/
+#products h3.catch{
+	color:#0f66ab !important;
+  	font-size:20px;
+	font-weight:bold !important;
+    margin:5px 0 20px 0 !important;
+    border:none !important;
+	padding:0 !important;
+	line-height:1.6em !important;
+	background:#fff !important;
+	text-shadow:none !important;
+	text-align:left;
+}
+
+#products h3{
+	background:#0f66ab;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    padding:10px;
+    margin:40px 0 20px !important;
+	border-left:none !important;
+}
+
+
+/*-- カート部品　ボックス --*/
+#products .cart_box{
+	background-color:#d7f7fb;
+  	padding:20px;
+	margin-top:20px;
+    margin-bottom:20px;
+	
+	font-weight:bold;
+    font-size:100%;
+}
+
+
+.cago_btn{
+margin:10px 0;
+}
+
+/*-- カート部品　セレクトボックス --*/
+.amount{
+	font-size: 18px;
+    width:100px;
+    margin-bottom:10px;
+}
+
+/*----------------------------- 
+内容量の表
+----------------------------- */
+
+table.naiyouryou{
+	width:100%;
+	border-collapse: collapse;
+    margin:0 0 0 0;
+}
+table.naiyouryou_href{
+	width:67%;
+	border-collapse: collapse;
+    margin:20px 0 0 0;
+}
+
+table.naiyouryou th,table.naiyouryou_href th{
+	width:110px;
+    border:1px solid #CCC;
+    padding:10px 5px;
+    background:#ebeef0;
+   
+}
+
+table.naiyouryou td,table.naiyouryou_href td{
+	font-size:13px;
+    border:1px solid #CCC;
+    padding:10px 5px;
+}
+
+
+/*-- ガイドメニュ－ --*/
+#products .detail_item_guide ul
+{
+	margin:20px 0 20px 20px;
+}
+#products .detail_item_guide ul li
+{
+	padding: 3px 0 3px 20px;
+	font-size: 12px;
+	list-style: none;
+}
+#products .detail_item_guide ul li.souryou
+{
+	background: url(../images/products/icon/ico_note.gif) no-repeat left;
+}
+#products .detail_item_guide ul li.form
+{
+	background: url(../images/products/icon/ico_mail2.gif) no-repeat left;
+}
+#products .detail_item_guide ul li.review
+{
+	background: url(../images/products/icon/ico_comment1.gif) no-repeat left;
+}
+#products .detail_item_guide ul li.toukou
+{
+	background: url(../images/products/icon/ico_pen.gif) no-repeat left;
+}
+#products .detail_item_guide ul li.cat
+{
+	background: url(../images/products/icon/ico_plus1.gif) no-repeat left;
+}
+
+/*----------------------------- 
+画像３～６
+パターン３種　
+----------------------------- */
+#products .imgbox_typeB{
+		width: 317px;
+    margin:0 5px 20px 5px;
+    float:left;
+}
+
+
+#products .imgbox_typeC{
+	margin-bottom:10px;
+}
+
+#products .imgbox_typeC img{
+	float:left;
+    margin-right:20px;
+}
+
+
+/*----------------------------- 
+関連商品・商品一覧
+商品のテーブル
+----------------------------- */
+#products ul.itemlist{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flexbox;
+	display: -moz-flexbox;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+	-webkit-box-pack: justify; /* Android 2~4 */
+	display: -ms-flex;
+	display: flex;
+	justify-content: flex-start;
+  	-webkit-flex-wrap:wrap;
+	-moz-flex-wrap:wrap;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
+	align-items: stretch;
+	background:#fff;
+	padding:0 ;
+}
+
+#products ul.itemlist li{
+	width: 32%;
+	line-height:1.4em;
+	padding:5px 15px;
+	margin:2px 2% 20px 0;
+	border:1px solid #CCC;
+	box-sizing:border-box;
+	font-size:90%;
+}
+
+#products ul.itemlist li:nth-of-type(3n){
+	margin-right:0;
+}
+
+#products ul.itemlist li p.img,
+div.item-con-listbox-img{
+	text-align:center;
+	margin:0 auto 5px;
+}
+
+#products ul.itemlist li p.title{
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:10px;
+	font-size:16px;
+}
+
+#products ul.itemlist li p.title a{
+	line-height:140%;
+    margin:0;
+    font-weight:bold;
+	text-decoration:none;
+	color:#0f66ab;
+	font-size:100%!important;
+}
+#products ul.itemlist p.price{
+	text-align:left;
+	padding:0 0 10px 0!important;
+}
+
+#products ul.itemlist p.price span.red{
+	display: block;
+	font-size:18px;
+	font-weight: bold;
+	margin-top:15px;
+}
+#products ul.itemlist p.price span.red span.f12{
+	color:#333!important;
+	font-weight: normal!important;
+}
+#products ul.itemlist p.price::after{
+	content: "";
+display: block;
+visibility: hidden;
+clear: both;
+height: 0;
+font-size: 0.1em;
+line-height: 0;
+}
+#products ul.itemlist span.btn_box{
+	display:block;
+	margin:15px auto;
+    text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	background:#0f66ab;
+	padding:10px;
+	width: 125px;
+	color:#FFF;
+}
+
+
+
+.item_parent_box{
+}
+
+.item_parent_box table.item_table:nth-child(3n+1){
+	clear:both !important;
+}
+
+.item_parent_box table.item_table:nth-child(3n+3){
+	margin:0 !important;
+}
+
+#products div.item_box,
+#kijibasic div.item_box{
+	width: 215px;
+	float:left;
+	padding:0;
+	margin:0 4px 25px 4px;
+	
+}
+
+
+#products table.item_table,
+#kijibasic table.item_table{
+	width: 32%;
+	float:left;
+	border:1px solid #CCCCCC;
+	line-height:160%;
+	padding:5px 15px;
+	margin:2px 2% 20px 0;
+}
+#products table.item_table:nth-of-type(3n),
+#kijibasic table.item_table:nth-of-type(3n){
+	margin-right:0;
+}
+
+
+#products table.item_table tr,
+#kijibasic table.item_table tr{
+	text-align:center;
+}
+
+	
+#products table.item_table td,
+#kijibasic table.item_table td{
+	line-height:140%;
+	font-size:80%;
+}
+
+#products table.item_table td.img,
+#kijibasic table.item_table td.img{
+	
+}
+
+#products table.item_table td.price,
+#kijibasic table.item_table td.price{
+	text-align:center;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+
+#products table.item_table th,
+#kijibasic table.item_table th{
+	text-align:center;
+	font-size:100%;
+	font-weight:bold;
+	height:50px;
+}
+
+#products table.item_table th a,
+#kijibasic table.item_table th a{
+	line-height:140%;
+    margin:0;
+    font-weight:bold;
+	text-decoration:none;
+	color:#0f66ab;
+}
+
+#products table.item_table td a,
+#kijibasic table.item_table td a{
+	text-decoration:none;
+}
+
+
+#products table.item_table span.btn_box,
+#kijibasic table.item_table span.btn_box{
+	display:block;
+	margin:15px auto;
+    text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	background:#0f66ab;
+	padding:10px;
+		width: 125px;
+	color:#FFF;
+}
+
+
+
+
+
+/*----------------------------- 
+関連商品・商品一覧
+商品のテーブル　追記
+----------------------------- */
+.ichiran_list
+{
+	clear: both;
+	margin-bottom:20px;
+}
+
+
+
+/*----------------------------- 
+	マウスポインタ
+----------------------------- */
+
+input[type="submit"], input[type="reset"], input[type="button"], button{
+  cursor: pointer;
+}
+

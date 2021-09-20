@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/* 大掃除ss
+----------------------------------------*/
+
+.imgbox_list{
+	width:98%;
+	padding:10px 1%;
+	background-color:#EBEBEB !important;
+	margin:5px 0 0 0;
+}
+.imgbox_list:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.imgbox_list ul.catcl{
+	width:100%;
+}
+.imgbox_list ul.catcl:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.imgbox_list ul.catcl li{
+    position:relative;
+    width:49%;
+	float:left;
+	margin:10px 0;
+}
+.imgbox_list ul.catcl li:nth-of-type(2n){
+	margin-left:2% !important;
+}
+
+.imgbox_list ul.catcl li h3{
+	display:block;
+    position:absolute;
+	width:100% !important;
+    bottom:5px;
+    left:0px;
+	padding:0 !important;
+	margin:0 !important;
+    text-align:left;
+    line-height:120%;
+	font-size:16px !important;
+ 	background: url(../../images/oosouji/w_arrow.png) no-repeat right 50% #292929 !important;	
+    filter:alpha(opacity=50);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+.imgbox_list ul.catcl li h3 a{
+	display:block;
+	padding:3% 10px 3% 2%;
+	text-decoration: none;
+	color:#fff;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	font-size:98%;
+	letter-spacing:-1px;
+}
+
+
+.imgbox_list ul.catcl li img{
+    width:100%;
+}
+
+.imgbox_list ul.catcl li a:hover{
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)";
+}
+.imgbox_list ul.catcl li h3 a:hover{
+    background-color:#CDCDCD;
+	color:#000;
+}
+
+.imgbox_list h2.oosouji01,
+.imgbox_list h2.oosouji02,
+.imgbox_list h2.oosouji03{
+	-moz-border-radius:15px;    /* 古いFirefox */
+   -webkit-border-radius: 15px; /* 古いSafari,Chrome */
+	width:100%;
+	border-radius: 15px !important;
+	background:#eb951b !important;
+    color:#fff !important;
+    font-size:18px !important;
+    padding:10px !important;
+    margin:10px 0 !important;
+	box-sizing:border-box !important;
+	letter-spacing:0.1px;
+	text-align: center;
+}
+.imgbox_list h2.oosouji01{
+	background:#eb951b !important;
+}
+
+.imgbox_list h2.oosouji02{
+	background:#EB1B82 !important;
+}
+.imgbox_list h2.oosouji03{
+	background:#1B80EB !important;	
+}
+
+h2.o-fuki {
+	font-size:18px !important;
+	position: relative;
+	padding: .5em .75em !important;
+	background-color: #fff !important;
+	border: 2px solid #008DD6;
+	border-radius: 15px;
+	margin:15px 0 18px 0 !important;
+	color:#008DD7;;
+}
+h2.o-fuki::before,
+h2.o-fuki::after {
+	position: absolute;
+	top: 100%;
+	left: 30px;
+	content: '';
+	height: 0;
+	width: 0;
+	border: 10px solid transparent;
+}
+h2.o-fuki::before {
+	border-top: 15px solid #008DD6;
+}
+h2.o-fuki::after {
+	margin-top: -2px;
+	border-top: 15px solid #fff;
+}
+
+.waku_col,
+.waku_col1{
+	width:96%;
+	border:1.5px solid #008CD6;
+	border-radius: 10px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	text-align: center;
+	font-size:16px;
+	font-weight: bold;
+	margin:5px auto 20px auto;
+	background: url(../../images/sp/oosouji/m_check.png)top left no-repeat #FFD800;
+}
+.waku_col a,
+.waku_col1 a{
+	display: block;
+	text-decoration: none;
+	color:#008CD6;
+	padding:15px 2%;
+}
+
+
+/* 大掃除のコツ、準備
+----------------------------------------*/
+h3.o_title{
+	width:100%;
+	font-size:20px;
+	font-weight:bold;
+	color:#e4238e;
+	margin:20px 0 10px 0;
+	padding:15px ;
+	border:2px solid #e4238e;
+	border-radius: 15px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+.o-mds{
+	margin:30px 0 20px 0 !important;
+	font-size:20px !important;
+	font-weight:bold;
+	color:#FF3F00;
+}
+.list_waku{
+	width:90%;
+	margin:0 auto 20px auto;
+	padding:8px;
+	border:3px solid #008CD6;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	color: #008CD6;
+	font-weight: bold;
+}
+.list_waku br{
+	margin-bottom:15px;
+}
+.list_waku img{
+	vertical-align: middle;
+	margin:0 10px 10px 0;
+	width: 12%;
+	height:auto;
+}
+.b_mds{
+	width:90%;
+	font-weight:bold;
+	background: #008CD6;
+	padding:4px 0 2px 20px;
+	font-size:18px;
+	color:#fff;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	vertical-align: middle;
+	margin:0 auto;
+}
+img.f-right_p{
+	float:none !important;
+	width:70%;
+	margin:0 auto !important;
+	height:auto;
+}
+img.f-right_d{
+	display: block;
+	width:auto;
+	height:auto;
+	margin:0 auto !important;
+}

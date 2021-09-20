@@ -1,0 +1,173 @@
+<?php
+	$SOUPASS="../";
+	$senditem['page_h1']="愛犬・愛猫の健康面に関しましては飼い主が守るをテーマに発信しております。獣医もペットショップのスタッフも毎日側にはいません。1番近くにいる飼い主さまが守らねばならないのです。";
+?>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="飼い主,健康,守る,愛犬,知識,意識,clear,cat,dog">
+	<meta name="description" content="愛犬・愛猫の健康面に関しましては飼い主が守るをテーマに発信しております。獣医もペットショップのスタッフも毎日側にはいません。1番近くにいる飼い主さまが守らねばならないのです。">
+    <title>飼い主が健康を守る『Dog&amp;Cat CLEAR』</title>
+	<meta name="copyright" content="『Dog&Cat CLEAR』愛犬、愛猫の健康面、安心、安全面に考慮した厳選フード、ケア・お手入れ用品のみを扱いしているペットショップ">
+	<link rel="start" href="https://www.dogcat-clear.com/" title="Home">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link media="screen and (min-width: 768px)" href="../css/layout.css" rel="stylesheet">
+    <link media="screen and (max-width: 767px)" href="../css/sp/s_layout_header.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico"> 
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.min.js"></script>
+	<script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173353867-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173353867-1');
+</script>
+</head>
+
+<body>
+
+<!--▼ここからヘッダー-->
+<?php
+	include('../tpl/include/header.php');
+?>
+	
+	<div id="top_main">
+         <img src="../image/knowledge/tishiki.jpg" alt="愛犬・愛猫の健康面は飼い主が守る" width="1572" height="625">
+    </div>
+
+<div id="top">
+	<section>
+  <div class="page_title">
+    <h2>愛犬・愛猫の健康面は飼い主が守る</h2>
+  </div>
+
+  <div>
+      <div>
+	<img src="../image/family/ema.jpg" alt="4猫のエマ" class="center lazyload" width="900px" height="380px">
+      <h3 class="line04">愛犬・愛猫の健康面は飼い主の意識と知識により高まる</h3>
+         <p>愛犬・愛猫の日々の生活や、普段の食事、ふとした仕草など。<br>
+            我が子のことで1番情報が多いのは飼い主さまなのです。<br>
+            ペットショップスタッフや獣医は毎日側にいてくれますか？<br>
+            1番側で愛犬・愛猫の健康面を守れるのは飼い主さまなのです。</p>
+      </div>
+      
+      <div>
+        <h3 class="line04">【随時項目別に展開して参ります】</h3>
+         <p>随時、愛犬・愛猫の健康に関するような思考や情報を発信して参ります！<br>
+        暫しお待ち頂きますようよろしくお願い申し上げます！
+          </p>
+      </div>
+      
+      <div>
+          <h3 class="line04">飼い主が持つべき思考</h3>
+          <ul><strong>
+              <li><a href="thinking/cause_pursuit.html">●『原因追求の重要性』▷</a></li>
+			  <li><a href="thinking/staff.html">●『ペットショップスタッフは言いたいこと言えません』▷</a></li>
+			  <li><a href="thinking/kainusi.html">●『愛犬・愛猫の飼い主として持つべき思考』▷</a></li>
+			   <li><a href="thinking/grainfreefood.html">●『グレインフリーフードの格差』▷</a></li>
+        </strong></ul>
+      </div>
+  </div>
+    
+	</section>
+</div>
+    
+
+        
+	<!--▼フリーエリアー-->
+  
+
+<!--▼ここからフッター-->  
+<?php
+
+	include('../tpl/include/footer.php');
+
+?>		
+
+<script src="js/jquery.min.js"></script>
+	
+<script src="js/sp/slick.min.js"></script>
+
+	
+<script>
+jQuery(document).ready(function($) {
+    //PC環境の場合
+    if (window.matchMedia( '(min-width: 768px)' ).matches) {　//切り替える画面サイズ
+        $.ajax({
+            url: 'js/common.js',
+            dataType: 'script',
+            cache: false
+      });
+    //モバイル環境の場合
+    } else {
+		$.ajax({
+            url: 'js/sp/jquery.sidr.min.js',
+            dataType: 'script',
+            cache: false
+        });
+		$.ajax({
+            url: 'js/sp/common.js',
+            dataType: 'script',
+            cache: false
+        });
+		$.ajax({
+            url: 'js/sp/drawer.js',
+            dataType: 'script',
+            cache: false
+        });
+		$.ajax({
+            url: 'js/sp/drawer_left.js',
+            dataType: 'script',
+            cache: false
+        });
+
+    };
+});
+</script>
+<script>
+$(document).ready(function(){
+$('.slider').slick({
+	  infinite: true,
+	  dots:true,
+	  slidesToShow: 3,
+	  slidesToScroll: 3,
+	  responsive: [{
+		   breakpoint: 768,
+				settings: {
+					 slidesToShow: 2,
+					 slidesToScroll: 2,
+		   }
+	  },{
+		   breakpoint: 480,
+				settings: {
+					 slidesToShow: 1,
+					 slidesToScroll: 1,
+				}
+		   }
+	  ]
+ });
+});
+</script>	
+<script src="js/lazyload.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/nishio.js"></script>
+</body>
+</html>
+<link media="screen and (min-width: 768px)" href="../css/common.css" rel="stylesheet">
+<link media="screen and (min-width: 768px)" href="../css/top.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/s_layout.css?v2" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/common.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/top.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/modal.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/modaal.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/slick-theme.css" rel="stylesheet">
+<link media="screen and (max-width: 767px)" href="../css/sp/slick.css" rel="stylesheet">

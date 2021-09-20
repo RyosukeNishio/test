@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#clear{
+	width: 1450px;
+	margin: 0 auto;
+}
+#top_main img{
+    margin: 0 auto 200px;
+    width: 1790px;
+}
+
+h2.slash{
+    position: relative;
+    overflow: hidden;
+    padding: 15px 70px 15px 130px;
+    border: 1px solid #000;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+h2.slash:before{
+	  position: absolute;
+	  top: -150%;
+	  left: -100px;
+	  width: 200px;
+	  height: 300%;
+	  content: '';
+	  -webkit-transform: rotate(25deg);
+	  transform: rotate(25deg);
+	  background: #3DBDE0;
+}
+h2.slash span{
+    font-size: 40px;
+    position: absolute;
+    z-index: 1;
+    top: 17px;
+    left: 22px;
+    display: block;
+    color: #fff;
+}
+h2.slash2{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 70px 20px 130px;
+    border: 1px solid #000;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+h2.slash2:before{
+	  position: absolute;
+	  top: -150%;
+	  left: -100px;
+	  width: 200px;
+	  height: 300%;
+	  content: '';
+	  -webkit-transform: rotate(25deg);
+	  transform: rotate(25deg);
+	  background: #90C43E!important;
+}
+h2.slash2 span{
+    font-size: 40px;
+    position: absolute;
+    z-index: 1;
+    top: 17px;
+    left: 22px;
+    display: block;
+    color: #fff;
+}
+h2.slash3{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 70px 20px 130px;
+    border: 1px solid #000;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+h2.slash3:before{
+	  position: absolute;
+	  top: -150%;
+	  left: -100px;
+	  width: 200px;
+	  height: 300%;
+	  content: '';
+	  -webkit-transform: rotate(25deg);
+	  transform: rotate(25deg);
+	  background: #FBC901!important;
+}
+h2.slash3 span{
+    font-size: 40px;
+    position: absolute;
+    z-index: 1;
+    top: 17px;
+    left: 22px;
+    display: block;
+    color: #fff;
+}
+h2.slash4{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 70px 20px 130px;
+    border: 1px solid #000;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+h2.slash4:before{
+	  position: absolute;
+	  top: -150%;
+	  left: -100px;
+	  width: 200px;
+	  height: 300%;
+	  content: '';
+	  -webkit-transform: rotate(25deg);
+	  transform: rotate(25deg);
+	  background: #EE86AD!important;
+}
+h2.slash4 span{
+    font-size: 40px;
+    position: absolute;
+    z-index: 1;
+    top: 17px;
+    left: 22px;
+    display: block;
+    color: #fff;
+}
+h2.slash0{
+    position: relative;
+    overflow: hidden;
+    padding: 1.5rem 2rem 1.5rem 130px;
+    border: 2px solid #000;
+    width: 500px;
+    font-size: 30px;
+    text-align: left;
+}
+h2.slash0:before{
+	  position: absolute;
+	  top: -150%;
+	  left: -100px;
+	  width: 200px;
+	  height: 300%;
+	  content: '';
+	  -webkit-transform: rotate(25deg);
+	  transform: rotate(25deg);
+	  background: #000000!important;
+}
+h2.slash0 span{
+  font-size: 40px;
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  display: block;
+  padding-top: 3px;
+  padding-left: 16px;
+  color: #fff;
+}

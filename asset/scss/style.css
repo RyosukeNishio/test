@@ -1,0 +1,234 @@
+h1, h1, h3, h4, ul, li, p, div, section, aside, article, a, body {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  font-family: ten-mincho-text, serif;
+}
+
+.bk_dc {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.t_center {
+  text-align: center;
+}
+
+.flex_align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.div_img_left {
+  position: relative;
+  -webkit-transform: translate3d(-40%, -10%, 10px);
+          transform: translate3d(-40%, -10%, 10px);
+  width: 20%;
+  z-index: 10;
+}
+
+.div_img_left img {
+  width: 38vw;
+  padding-bottom: 10%;
+}
+
+.div_img_left .img01 {
+  position: absolute;
+  top: 66%;
+  left: 77%;
+}
+
+.div_img_left .img02 {
+  position: absolute;
+  top: 96%;
+  left: 247%;
+}
+
+.div_img_right {
+  position: relative;
+  -webkit-transform: translate3d(11%, 3%, 10px);
+          transform: translate3d(11%, 3%, 10px);
+}
+
+.div_img_right img {
+  width: 38vw;
+  padding-bottom: 5%;
+}
+
+.div_img_right .img01 {
+  position: absolute;
+  top: 70%;
+  left: -37%;
+}
+
+.div_img_right .img02 {
+  position: absolute;
+  top: 96%;
+  left: 247%;
+}
+
+.div_text_right {
+  z-index: 999;
+}
+
+.div_text_right p {
+  margin-top: 46%;
+  font-size: 2.3vw;
+  line-height: 200%;
+  letter-spacing: 2px;
+  z-index: 999;
+}
+
+.div_text_left {
+  z-index: 999;
+  width: 100%;
+  padding-left: 7%;
+}
+
+.div_text_left h2 {
+  -webkit-transform: translate3d(-2%, 110%, 10px);
+          transform: translate3d(-2%, 110%, 10px);
+  font-size: 2.8vw;
+  line-height: 200%;
+  letter-spacing: 2px;
+  z-index: 999;
+  font-weight: 100;
+  border-bottom: solid 10px;
+  -o-border-image: linear-gradient(to right, #7ae6ff 0%, #00adff 100%);
+     border-image: -webkit-gradient(linear, left top, right top, from(#7ae6ff), to(#00adff));
+     border-image: linear-gradient(to right, #7ae6ff 0%, #00adff 100%);
+  border-image-slice: 1;
+  display: inline-block;
+  text-shadow: 3px -3px #c5f4ff;
+}
+
+.div_text_left p {
+  margin-top: 14%;
+  font-size: 2.3vw;
+  line-height: 200%;
+  letter-spacing: 2px;
+  z-index: 999;
+}
+
+.bg01 {
+  background: url(../img/bg_riyan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg01 .bg_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(255, 255, 255, 0.7);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bg02 {
+  background: url(../img/bg_haku.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg02 .bg_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(255, 255, 255, 0.7);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.fa {
+  opacity: 0;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
+}
+
+.fa_up {
+  -webkit-transform: translate(0, 100px);
+          transform: translate(0, 100px);
+}
+
+.fa_left {
+  -webkit-transform: translate(-50px, 0);
+          transform: translate(-50px, 0);
+}
+
+.fa_right {
+  -webkit-transform: translate(50px, 0);
+          transform: translate(50px, 0);
+}
+
+.on {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+header {
+  position: relative;
+  background: #fff;
+  z-index: 999;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  justify-cntent: center;
+  font-size: 15px;
+}
+
+header ul a {
+  display: block;
+  padding: 20px 15px;
+}
+
+.header_inner {
+  background: #fff;
+}
+
+.clear {
+  position: absolute;
+  -webkit-transform: translate3d(-31%, 15%, 20px);
+          transform: translate3d(-31%, 15%, 20px);
+  width: 75vw;
+}
+
+.logo {
+  position: absolute;
+  width: 70vw;
+  top: 2%;
+  right: 5%;
+  z-index: 999;
+}
+/*# sourceMappingURL=style.css.map */

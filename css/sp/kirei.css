@@ -1,0 +1,499 @@
+@charset "utf-8";
+/*----------------------------- 
+きれいッ粉5つのちから		
+----------------------------- */
+
+.marugo{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+.bor10{
+	font-size:14px;
+	border:2px solid #008CD6;
+	padding:5px 10px;
+	border-radius: 15px;        /* CSS3草案 */  
+    -webkit-border-radius: 15px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 15px;   /* Firefox用 */ 
+}
+
+.kireikko_arrow_box{
+    width:100%;
+    height:50px;
+	position: relative;
+    background: #008bd6;
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:5px;
+    text-align:center;
+    line-height:50px;
+    margin-bottom:20px;
+}
+
+.kireikko_arrow_box:after{
+	top: 100%;
+	left:50%;
+	border:solid transparent;
+	content:" ";
+	height:0;
+	width:0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 139, 214, 0);
+	border-top-color: #008bd6;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.tokutyou{
+	width:100%;
+	background:#e0f6fa;
+	padding:20px 1%;
+	margin:10px 0 20px 0;
+	box-sizing: border-box;
+}
+.tokutyou .clbox{
+	width:96%;
+	margin:0 auto 20px;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.tokutyou .clbox .tokutyou_mds{
+	width:90%;
+	border-top-right-radius:6px;
+	border-top-left-radius:6px;
+	background:#008CD6;
+	padding:3% 5%;
+	margin:0 auto;
+	text-align:center;
+	border:1px solid #ccc;
+}
+.tokutyou .clbox .tokutyou_mds .va-middle{
+	vertical-align:middle;
+	width:auto;
+}
+
+.clbox .tokutyou_con{
+	background:#ffffff;
+	width:90%;
+	border-bottom-right-radius:6px;
+	border-bottom-left-radius:6px;
+	padding:5%;
+	margin:0 auto;
+	font-size:15px;
+}
+.clbox .tokutyou_con strong{
+	font-size:16px;
+}
+
+.clbox .tokutyou_con img{
+	width:30%;
+}
+.clbox .tokutyou_con ul,
+.clbox .tokutyou_con ol{
+	padding:10px 0;
+	font-size:15px;
+	width:100%;
+	list-style-type: none;
+}
+
+.clbox .tokutyou_con ul li,
+.clbox .tokutyou_con ol li
+{
+	background:url(../../images/kirei/ten_maru.png) no-repeat 0 0;
+	padding-left:15px;
+}
+
+.clbox .tokutyou_con ol li.nostyle
+{
+	background:none;
+	padding-left:15px;
+}
+
+.clbox h3.power_midashi{
+	font-size:22px;
+	color:#ffffff;
+	font-weight:bold;
+	background:none !important;
+	margin:0 !important;
+	padding:0 !important;
+}
+.clbox h3.power_midashi img{
+	margin-right:8px;
+	width:30px;
+	height:30px;
+}
+.tokutyou .blue_midashi{
+	width:100%;
+	font-size:22px !important;
+	color:#008CD6;
+	font-weight:900 !important;
+	margin:10px auto 15px;
+	line-height:160%;
+	text-align:center;
+	float:left;
+	box-sizing: border-box;
+	padding:0 10px !important;
+}
+
+.waku_og,
+.waku_og_list{
+	width:94%;
+	border-radius: 15px;        /* CSS3草案 */  
+    -webkit-border-radius: 15px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 15px;   /* Firefox用 */ 
+	border:2px solid #F60;
+	margin:0 auto 20px auto;
+	font-size:90%;
+}
+
+.waku_og a,
+.waku_og_list a{
+	display: block;
+	padding:15px 2%;
+	text-decoration:none;
+	color:#333333;
+	line-height:180%;
+	border-bottom:2px dotted #ccc;
+}
+.waku_og_list a{
+	padding:15px 25px;
+}
+.waku_og a:last-of-type,
+.waku_og_list a:last-of-type{
+	border-bottom:none;
+}
+
+.waku_og a:visited,
+.waku_og_list a:visited{
+	color:#551A8B !important;
+}
+
+.waku_og a:visited span,
+.waku_og_list a:visited span,
+.waku_og a:visited strong,
+.waku_og_list a:visited strong{
+	color:#551A8B !important;
+}
+
+.waku_og a:hover,
+.waku_og_list a:hover{
+	background:#FFEFDF;
+}
+
+.waku_og a strong,
+.waku_og_list a strong{
+	padding:0 !important;
+}
+/*-----------------------------
+
+
+
+.anshin_pet{
+	float:right;
+	vertical-align:bottom;
+}
+/*----------------------------- 
+himitsu		
+----------------------------- */
+.kirei_base{
+	line-height: 1.7 !important;
+	font-size: 15px;
+}
+.kirei_base img.p34{
+	display:block;
+	width:60% !important;
+	margin:5px auto;
+}
+
+.kirei_base img.p20{
+	width:30% !important;
+	max-width:86px !important;;
+	margin:0 1.5%  !important;;
+
+}
+
+ul{
+	margin-top:15px;
+}
+table{
+width:100%;
+}
+table td{
+	width:50%;
+	background-color:#DCF1FB;
+	font-size:85%;
+	padding:8px 10px;
+	box-sizing: border-box;
+}
+table th{
+background-color:#ccc;
+}
+
+.description{
+	width:94%;
+	padding:2%;
+	background:#e5f6fe url(../../images/common/a2_p16.gif) repeat-x;
+	border: 1px #AAFFFF solid;
+	margin:10px auto 0 auto;
+}
+/*----------------------------- 
+howto	
+----------------------------- */
+.big{
+	font-size:15px;
+	background:#FFD9EC url(../../images/common/a24_p4.gif);
+	border: 1px #FF51A8 solid;
+	padding:10px 2% 3px 2%;
+	width:96%;
+	color:#E10071;
+	margin-bottom:20px;
+	margin-top:20px;
+	text-align:center;
+}
+.box-kadomaru{
+	width:96%;
+	background:#e5f6fe url(../../images/common/kadomaru_01.gif) no-repeat top;
+	margin:0 0 20px 0;
+	padding:1% 2%;
+}
+.box-kadomaru:last-of-type{
+	margin-bottom:50px;
+}
+.box-kadomaru-text{
+	width:94%;
+	padding:2%;
+	margin:0 auto;
+	}
+.box-kadomaru-img{
+	width:auto;
+	text-align:center;
+	margin:15px auto 0 auto;
+}
+.box-kadomaru-text p{
+	font-size:14px;
+}
+.box-kadomaru-text p a{
+	color:#0741B7 !important;
+	text-decoration: underline !important;
+	font-weight:600 !important;
+}
+
+.box-kadomaru h3.sub-title01,
+.box-kadomaru h3.sub-title01 a{
+    margin: 0 0 10px 0 !important;
+    padding: 0 !important;
+    font-size: 17px !important; 
+    line-height: 150%;
+    color: #ff6699 !important;
+	background:none !important;
+	text-shadow: none !important;
+}
+
+/*----------------------------- 
+過炭酸ソーダ試験		
+----------------------------- */
+
+strong.og_big{
+	color:#ea5432;
+	font-size:22px;
+	margin-bottom:10px;
+}
+
+h3.ex{
+	font-size:28px !important;
+	color:#00a0ea !important;
+	margin:40px 0 15px 0 !important;
+	background:none !important;
+	text-shadow: none !important;
+	text-align: left !important;
+	padding:0 !important;
+	line-height: 42px;
+}
+
+h3.ex img{
+	margin:0 5px 0 0;
+	vertical-align:middle;
+	width:auto;
+}
+
+div.waku_jouken{
+	font-size:13px;
+	border:2px solid #031C6C;
+	padding:10px;
+	line-height:1.6;
+	margin:10px 0 30px 0;
+	box-sizing: border-box;
+}
+
+
+/*----------------------------- 
+きれいッ粉　使い方事例集		
+----------------------------- */
+
+div.tabbox {
+	width:100%;
+}
+
+div.tabbox p img{
+	width:23%;
+}
+
+div#tab1,div#tab2,div#tab3,div#tab4{
+	margin:10px 0 0 0;
+	
+}
+
+div#tab1 h3{
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	background:#d6fcf9;
+	padding:5px 0;
+	text-align:center;
+	color:#027acc;
+	
+}
+
+div#tab2 h3{
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	background:#ffefda;
+	padding:5px 0;
+	text-align:center;
+	color:#f77500;
+}
+
+
+div#tab3 h3{
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	background:#e9a902;
+	padding:5px 0;
+	text-align:center;
+	color:#ffffff;
+	
+}
+
+div#tab4 h3{
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	background:#e8fcfb;
+	padding:5px 0;
+	text-align:center;
+	color:#3bd5d0;
+	
+}
+div.jirei_box{
+	border-radius: 20px;        /* CSS3草案 */  
+    -webkit-border-radius: 20px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 20px;  
+	border:1px solid #CCC;
+	position:relative;
+	top:5px;
+	margin:0 0 50px 0;
+	padding:10px 0 0 0;
+	left:5px;
+	box-sizing:border-box;
+	width:96%;
+}
+
+
+div.jirei_box div{
+	width:85%;
+	margin:5px;
+	padding:10px;
+}
+
+
+div.jirei_box ul{
+	font-size:14px;
+	margin:10px 0 0 3px;
+	line-height:160%;
+}
+
+
+div.jirei_box ul li{
+	padding:0 0 0 11px;
+	margin:0 0 20px 0;
+}
+
+div.jirei_box ul li span{
+	color:#f872ea;
+}
+
+div.jirei_box ul li a{
+	color:#333;
+	text-decoration:none;
+}
+
+div.jirei_box ul li a:hover{
+	text-decoration:underline;
+}
+
+div#tab1 div.jirei_box ul li{
+	background:url(../../images/common/li_mark_blue.png) no-repeat ;
+	
+}
+
+div#tab2 div.jirei_box ul li{
+	background:url(../../images/common/li_mark_org.png) no-repeat ;
+	
+}
+
+div#tab3 div.jirei_box ul li{
+	background:url(../images/common/li_mark_yellow.png) no-repeat ;
+	
+}
+
+div#tab4 div.jirei_box ul li{
+	background:url(../images/common/li_mark_green.png) no-repeat ;
+	
+}
+
+div.jirei_midashibox{
+	padding:10px;
+	margin:0 auto;
+}
+
+
+
+div.jirei_midashibox table{
+	width:100%;
+	margin:0 auto 20px auto;
+	border-collapse:collapse;
+}
+
+
+
+div.jirei_midashibox table td{
+	width:30%;
+	border:1px solid #025783;
+	padding:10px;
+	font-size:13px !important;
+	background: #ffffff;
+	line-height:120%;
+	height:auto;
+	text-align:center;
+	
+}
+
+div.jirei_midashibox table td a{
+	display:block;
+	text-decoration:none !important;
+	width:100%;
+	
+}
+div.jirei_midashibox table td a:hover{
+	text-decoration:none !important;
+	width:100%;
+}
+
+
